@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .Navigation {
+            background-color: #000;
+            width: 100%;
+            position: fixed;
+        }
+
+        .Navigation .item {
+            color: #fff;
+            width: 960px;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        .Navigation .item .tag {
+            width: 184px;
+            height: 70px;
+            font-size: 15px;
+            text-align: center;
+            line-height: 70px;
+            border-bottom: 5px solid black;
+        }
+
+        .Navigation .item .tag:hover {
+            border-bottom: 5px solid red;
+        }
+
+        .table {
+            width: 960px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: auto;
+        }
+
+        .CarPicOdd {
+            position: relative;
+            margin-top: 475px;
+            z-index: -1;
+        }
+
+        .CarPicOdd .button {
+            position: absolute;
+            top: 197px;
+            right: -10px;
+        }
+
+        .CarPicOdd .Info {
+            position: absolute;
+            top: -135px;
+            left: -132.5px;
+        }
+
+        .CarPicOdd .revolution {
+            position: absolute;
+            bottom: -248px;
+            left: -132.5px;
+        }
+
+        .CarPicOdd .gray {
+            background-color: #eee;
+            width: 439px;
+            height: 290px;
+            position: absolute;
+            right: -132.5px;
+            top: -100px;
+            z-index: -2;
+        }
+
+        .CarPicEven {
+            position: relative;
+            left: -122.5px;
+            margin-top: 475px;
+            z-index: -1;
+        }
+
+        .CarPicEven .button {
+            position: absolute;
+            top: 197px;
+            left: -10px;
+        }
+
+        .CarPicEven .Info {
+            position: absolute;
+            top: -135px;
+            right: -255px;
+        }
+
+        .CarPicEven .revolution {
+            position: absolute;
+            bottom: -148px;
+            right: -255px;
+        }
+
+        .CarPicEven .gray {
+            background-color: #eee;
+            width: 518px;
+            height: 412px;
+            position: absolute;
+            right: -132.5px;
+            top: -100px;
+            z-index: -2;
+        }
+        .revolution5{
+            position: absolute;
+            bottom: -148px;
+            left: -132.5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="Navigation">
+        <div class="item">
+            <div class="tag">
+                <p>核心理念</p>
+            </div>
+            <div class="tag">
+                <p>五大優勢</p>
+            </div>
+            <div class="tag">
+                <p>46THINGS</p>
+            </div>
+            <div class="tag">
+                <p>影片演示</p>
+            </div>
+            <div class="tag">
+                <p>搭載車款</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="table">
+
+        <div class="CarPicOdd"><img src="Pic/advantage-1-video-button-bg.png_9e068d9b" alt="">
+            <div class="button"><img src="Pic/video-icon.png_73425069" alt=""></div>
+            <div class="Info"><img src="Pic/advantage-1-info.png_0a3640e4" alt=""></div>
+            <div class="revolution"><img src=" Pic/advantage-1-revolution.png_03f7cf26" alt=""></div>
+            <div class="gray"></div>
+        </div>
+
+        <div class="CarPicEven"><img src="Pic/advantage-2-video-button-bg.png_af18d668" alt="">
+            <div class="button"><img src="Pic/video-icon.png_73425069" alt=""></div>
+            <div class="Info"><img src="Pic/advantage-2-info.png_46657c02" alt=""></div>
+            <div class="revolution"><img src="Pic/advantage-2-revolution.png_8a66e718" alt=""></div>
+            <div class="gray"></div>
+        </div>
+
+        <div class="CarPicOdd"><img src="Pic/advantage-3-video-button-bg.png_705545c7" alt="">
+            <div class="button"><img src="Pic/video-icon.png_73425069" alt=""></div>
+            <div class="Info"><img src="Pic/advantage-3-info.png_bb6d0619" alt=""></div>
+            <div class="revolution"><img src="Pic/advantage-3-revolution.png_c784ae45" alt=""></div>
+            <div class="gray"></div>
+        </div>
+
+        <div class="CarPicEven"><img src="Pic/advantage-4-video-button-bg.png_24515544" alt="">
+            <div class="button"><img src="Pic/video-icon.png_73425069" alt=""></div>
+            <div class="Info"><img src="Pic/advantage-4-info.png_e56fc8c8" alt=""></div>
+            <div class="revolution"><img src="Pic/advantage-4-revolution.png_f12112d0" alt=""></div>
+            <div class="gray"></div>
+        </div>
+
+        <div class="CarPicOdd"><img src="Pic/advantage-5-video-button-bg.png_ad476b92" alt="">
+            <div class="button"><img src="Pic/video-icon.png_73425069" alt=""></div>
+            <div class="Info"><img src="Pic/advantage-5-info.png_30a0a814" alt=""></div>
+            <div class="revolution5"><img src="Pic/advantage-5-revolution.png_f9faed2a" alt=""></div>
+            <div class="gray"></div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
