@@ -136,7 +136,7 @@
     .importantPic_right {
         width: 45%;
         position: relative;
-        z-index: -1;
+        z-index: 4;
     }
     
     .importantPic_right_container {
