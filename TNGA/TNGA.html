@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,115 +10,164 @@
             margin: 0;
             list-style: none;
         }
-
-        .Navigation {
-            background-color: #000;
-            width: 100%;
-            position: fixed;
-        }
-
-        .Navigation .item {
-            color: #fff;
+        
+        .wrap {
             width: 960px;
-            display: flex;
-            justify-content: space-around;
             margin: auto;
+            padding-top: 80px;
         }
-
-        .Navigation .item .tag {
-            width: 184px;
-            height: 70px;
-            font-size: 15px;
-            text-align: center;
-            line-height: 70px;
-            border-bottom: 5px solid black;
+        
+        .main_title {
+            width: 355px;
+            position: absolute;
+            z-index: 2;
         }
-
-        .Navigation .item .tag:hover {
-            border-bottom: 5px solid red;
+        
+        .main_title img {
+            vertical-align: top;
         }
-
-        .table {
-            width: 960px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            text-align: center;
-            margin: auto;
-        }
-
-        .CarPicOdd {
+        
+        .content_img {
+            text-align: right;
+            padding-top: 137px;
             position: relative;
-            margin-top: 475px;
-            z-index: -1;
+            z-index: 0;
         }
-
-        .CarPicOdd .button {
-            position: absolute;
-            top: 197px;
-            right: -10px;
-        }
-
-        .CarPicOdd .Info {
-            position: absolute;
-            top: -136px;
-            left: -132.5px;
-        }
-
-        .CarPicOdd .revolution {
-            position: absolute;
-            bottom: -248px;
-            left: -132.5px;
-        }
-
-        .CarPicOdd .gray {
+        
+        .content_img::before {
+            content: '';
             background-color: #eee;
             width: 439px;
             height: 290px;
             position: absolute;
-            right: -132.5px;
-            top: -100px;
-            z-index: -2;
-        }
-
-        .CarPicEven {
-            position: relative;
-            left: -122.5px;
-            margin-top: 475px;
+            top: 0;
+            right: 0;
             z-index: -1;
         }
-
-        .CarPicEven .button {
-            position: absolute;
-            top: 197px;
-            left: -10px;
+        
+        .content_img img {
+            vertical-align: top;
+            padding-right: 80px;
         }
-
-        .CarPicEven .Info {
+        
+        .video_connection {
             position: absolute;
-            top: -136px;
-            right: -255px;
+            top: 334px;
+            right: 74px;
         }
-
-        .CarPicEven .revolution {
+        
+        .video_connection img {
+            vertical-align: top;
+            padding: 0;
+        }
+        
+        .txt {
+            width: 682px;
+            margin-top: -70px;
+            padding: 40px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .txt img {
+            vertical-align: top;
+        }
+        
+        .main_title_even {
+            width: 355px;
             position: absolute;
-            bottom: -148px;
-            right: -255px;
+            padding-left: 605px;
+            z-index: 2;
         }
-
-        .CarPicEven .gray {
+        
+        .main_title_even img {
+            vertical-align: top;
+        }
+        
+        .content_img_even {
+            text-align: left;
+            padding-top: 137px;
+            position: relative;
+            z-index: 0;
+        }
+        
+        .content_img_even::before {
+            content: '';
             background-color: #eee;
             width: 518px;
-            height: 412px;
+            height: 413px;
             position: absolute;
-            right: -132.5px;
-            top: -100px;
-            z-index: -2;
+            top: 68.5px;
+            right: 190px;
+            z-index: -1;
         }
-        .revolution5{
+        
+        .content_img_even img {
+            vertical-align: top;
+            padding-right: 80px;
+            padding-left: 5px;
+        }
+        
+        .video_connection_even {
             position: absolute;
-            bottom: -170px;
-            left: -132.5px;
+            top: 334px;
+            left: 0;
+        }
+        
+        .video_connection_even img {
+            vertical-align: top;
+            padding: 0;
+        }
+        
+        .txt_even {
+            width: 682px;
+            margin-top: -70px;
+            padding: 40px 0 40px 278px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .txt_even img {
+            vertical-align: top;
+        }
+        
+        .Navigation {
+            width: 100%;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            z-index: 5;
+        }
+        
+        .Navigation_item {
+            width: 960px;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .tag {
+            width: 192px;
+            text-align: center;
+            border-bottom: 2px solid #000;
+        }
+        
+        .tag:hover {
+            border-bottom: 2px solid #f00;
+        }
+        
+        .Navigation a {
+            padding: 20px;
+            text-decoration: none;
+            font-size: 7px;
+            font-family: Helvetica, Verdana, Arial, "\5FAE\8EDF\6B63\9ED1\9AD4", "Microsoft JhengHei", "\5137\9ED1 Pro", "LiHei Pro", sans-serif;
+        }
+        
+        .Navigation a:visited {
+            color: #fff;
         }
     </style>
 </head>
@@ -127,65 +175,115 @@
 <body>
 
     <div class="Navigation">
+        <div class="Navigation_item">
+            <div class="tag">
+                <a href="">
+                    <h1>核心理念</h1>
+                </a>
+            </div>
+            <div class="tag">
+                <a href="">
+                    <h1>五大優勢</h1>
+                </a>
+            </div>
+            <div class="tag">
+                <a href="">
+                    <h1>46THINGS</h1>
+                </a>
+            </div>
+            <div class="tag">
+                <a href="">
+                    <h1>影片演示</h1>
+                </a>
+            </div>
+            <div class="tag">
+                <a href="">
+                    <h1>搭載車款</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
         <div class="item">
-            <div class="tag">
-                <p>核心理念</p>
+            <div class="main_title">
+                <img src="/tnga/Pic/asset 57.png" alt="">
             </div>
-            <div class="tag">
-                <p>五大優勢</p>
+            <div class="content_img">
+                <img src="/tnga/Pic/asset 55.png" alt="">
+                <div class="video_connection">
+                    <a href="#"><img src="/tnga/Pic/asset 56.png" alt=""></a>
+                </div>
             </div>
-            <div class="tag">
-                <p>46THINGS</p>
+            <div class="txt">
+                <img src="/tnga/Pic/asset 58.png" alt="">
             </div>
-            <div class="tag">
-                <p>影片演示</p>
+        </div>
+
+
+        <div class="item">
+            <div class="main_title_even">
+                <img src="/tnga/Pic/asset 60.png" alt="">
             </div>
-            <div class="tag">
-                <p>搭載車款</p>
+            <div class="content_img_even">
+                <img src="/tnga/Pic/asset 59.png" alt="">
+                <div class="video_connection_even">
+                    <a href="#"><img src="/tnga/Pic/asset 56.png" alt=""></a>
+                </div>
+            </div>
+            <div class="txt_even">
+                <img src="/tnga/Pic/asset 61.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="main_title">
+                <img src="/tnga/Pic/asset 63.png" alt="">
+            </div>
+            <div class="content_img">
+                <img src="/tnga/Pic/asset 62.png" alt="">
+                <div class="video_connection">
+                    <a href="#"><img src="/tnga/Pic/asset 56.png" alt=""></a>
+                </div>
+            </div>
+            <div class="txt">
+                <img src="/tnga/Pic/asset 64.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="main_title_even">
+                <img src="/tnga/Pic/asset 66.png" alt="">
+            </div>
+            <div class="content_img_even">
+                <img src="/tnga/Pic/asset 65.png" alt="">
+                <div class="video_connection_even">
+                    <a href="#"><img src="/tnga/Pic/asset 56.png" alt=""></a>
+                </div>
+            </div>
+            <div class="txt_even">
+                <img src="/tnga/Pic/asset 67.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="main_title">
+                <img src="/tnga/Pic/asset 69.png" alt="">
+            </div>
+            <div class="content_img">
+                <img src="/tnga/Pic/asset 68.png" alt="">
+                <div class="video_connection">
+                    <a href="#"><img src="/tnga/Pic/asset 56.png" alt=""></a>
+                </div>
+            </div>
+            <div class="txt">
+                <img src="/tnga/Pic/asset 70.png" alt="">
             </div>
         </div>
     </div>
-
-
-    <div class="table">
-
-        <div class="CarPicOdd"><img src="Pic/asset 55.png" alt="">
-            <div class="button"><img src="Pic/asset 56.png" alt=""></div>
-            <div class="Info"><img src="Pic/asset 57.png" alt=""></div>
-            <div class="revolution"><img src="Pic/asset 58.png" alt=""></div>
-            <div class="gray"></div>
-        </div>
-
-        <div class="CarPicEven"><img src="Pic/asset 59.png" alt="">
-            <div class="button"><img src="Pic/asset 56.png" alt=""></div>
-            <div class="Info"><img src="Pic/asset 60.png" alt=""></div>
-            <div class="revolution"><img src="Pic/asset 61.png" alt=""></div>
-            <div class="gray"></div>
-        </div>
-
-        <div class="CarPicOdd"><img src="Pic/asset 62.png" alt="">
-            <div class="button"><img src="Pic/asset 56.png" alt=""></div>
-            <div class="Info"><img src="Pic/asset 63.png" alt=""></div>
-            <div class="revolution"><img src="Pic/asset 64.png" alt=""></div>
-            <div class="gray"></div>
-        </div>
-
-        <div class="CarPicEven"><img src="Pic/asset 65.png" alt="">
-            <div class="button"><img src="Pic/asset 56.png" alt=""></div>
-            <div class="Info"><img src="Pic/asset 66.png" alt=""></div>
-            <div class="revolution"><img src="Pic/asset 67.png" alt=""></div>
-            <div class="gray"></div>
-        </div>
-
-        <div class="CarPicOdd"><img src="Pic/asset 68.png" alt="">
-            <div class="button"><img src="Pic/asset 56.png" alt=""></div>
-            <div class="Info"><img src="Pic/asset 69.png" alt=""></div>
-            <div class="revolution5"><img src="Pic/asset 70.png" alt=""></div>
-            <div class="gray"></div>
-        </div>
-
-    </div>
-
 
 </body>
 
