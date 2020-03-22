@@ -616,6 +616,7 @@
     }
     .our_services .item {
         width: 33.3333%;
+        display: flex;
     }
     .introduction {
         display: flex;
@@ -748,7 +749,7 @@
         background-color: #0aa;
         position: absolute;
         top: 106px;
-        left: 50%;  
+        left: 50%;
     }
     .recent_news .item:nth-child(1) {
         width: 100%;
