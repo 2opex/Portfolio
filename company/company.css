@@ -741,8 +741,17 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
-    .recent_news .item:nth-child(1){
-        width: 100%; 
+    .recent_news::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        background-color: #0aa;
+        position: absolute;
+        top: 106px;
+        left: 50%;  
+    }
+    .recent_news .item:nth-child(1) {
+        width: 100%;
         text-align: center;
     }
     .recent_news .item:nth-child(2),
