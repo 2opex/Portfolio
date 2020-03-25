@@ -9,154 +9,476 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/4b2c9cbe81.js" crossorigin="anonymous"></script>
     <title>Style Factory</title>
+    <link rel="stylesheet" href="StyleFactory.css">
 
-    <style>
-
-    </style>
 </head>
 
 <body>
 
-    <div class="container">
+    <nav class="navbar  navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wish List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Check Out</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <a href=""><i class="pr-2 fas fa-shopping-cart"></i></a>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success  my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+
+    <div class="container head">
+        <div class="row logoRow">
+            <img class="m-auto d-block " src="pic/logo.jpg" alt="">
+            <div class="icon">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-vimeo"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                <a href=""><i class="fab fa-pinterest"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <nav class="col-12" aria-label="breadcrumb">
+                <ol class="breadcrumb ">
+                    <li class="m-auto breadcrumb-item active" aria-current="page">HOME</li>
+                    <li class="m-auto breadcrumb-item"><a href="#">PRODUCTS</a></li>
+                    <li class="m-auto breadcrumb-item"><a href="#">BLOG</a></li>
+                    <li class="m-auto breadcrumb-item"><a href="#">SALE</a></li>
+                    <li class="m-auto breadcrumb-item"><a href="#">ABOUT US</a></li>
+                    <li class="m-auto breadcrumb-item"><a href="#">CONTACT US</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+    <div class="greeting">
+        <img class="d-block w-100 " src="pic/greeting_image.jpg" alt="">
+    </div>
+
+
+
+
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-4 colorTxt ">
                 <a href="">
                     <h3>new arrivals</h3>
-                    <p>see our latest must-haves</p>
+                    <p class="text-dark">see our latest must-haves</p>
                 </a>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 colorTxt">
                 <a href="">
                     <h3>we love</h3>
-                    <p>check out stylish favorites</p>
+                    <p class="text-dark">check out stylish favorites</p>
                 </a>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 colorTxt">
                 <a href="">
                     <h3>free shipping</h3>
-                    <p>on all 2016 collection</p>
+                    <p class="text-dark">on all 2016 collection</p>
                 </a>
             </div>
         </div>
     </div>
 
 
-    <div class="container PromePic">
-        <div class="row">
-            <div class="col-12">
-                <img class="d-block w-100 " src="pic/promo_block_img.jpg" alt="">
+    <div class="PromePic">
+        <div class="txt">
+            <h3>HAIR</h3>
+            <h4>EXTENSIONS</h4>
+            <h5>add length & volume in seconds</h5>
+            <button type="button" class="btn btn-outline-dark"><a href="">Read more</a></button>
+        </div>
+    </div>
+
+
+    <div class="container model no-gutters m-auto p-0">
+        <h3 class="my-4"><span class="titleBold">BROWSE</span><span class="title200"> OUR CATEGORIES </span></h3>
+        <div class="row no-gutters">
+            <a href="" class="m-auto col-9 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100"
+                        src="pic/category1_c699b5ea-b75e-4185-9a8e-2a65b0fc3814_430x396_crop_top.jpg" alt="">
+                </div>
                 <div class="txt">
-                    <h3>HAIR</h3>
-                    <h4>EXTENSIONS</h4>
-                    <h5>add length & volume in seconds</h5>
-                    <a href="">
-                        Read More
-                    </a>
+                    <h5>Men’s hair care</h5>
+                    <p>7 products</p>
+                </div>
+            </a>
+            <a href="" class="m-auto col-9 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/category2_430x396_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h5>Hair styling</h5>
+                    <p>13 products</p>
+                </div>
+            </a>
+            <a href="" class="m-auto col-9 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/category3_430x396_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h5>Hair health treatment</h5>
+                    <p>9 products</p>
+                </div>
+            </a>
+            <a href="" class="m-auto col-9 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/category2_430x396_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h5>Hair care for kids</h5>
+                    <p>7 products</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="container product">
+        <h3 class="py-4"><span class="titleBold">PRODUCTS</span><span class="title200"> ON SALE</span> </h3>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/argan_oil_hair_mask_01_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Argan Oil Hair Mask</a>
+                    <p>We know that some hair seems to be bad-tempered
+                        For saving your time, please use filters: brand, concerns, formulation, ingredient preferences,
+                        siz...</p>
+                    <span>$60.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/garnier_fructis_01_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Garnier Fructis</a>
+                    <p>Hairspray and Styling Products
+                        Coco Chanel said that a woman who cuts her hair is about to change her life. We’ll add that a
+                        woman who does anythin...</p>
+                    <span>$90.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/herbal_essences_01_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Herbal Essences</a>
+                    <p>Hairspray and Styling Products
+                        Coco Chanel said that a woman who cuts her hair is about to change her life. We’ll add that a
+                        woman who does anythin...</p>
+                    <span>$80.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/l_oreal_paris_studio_line_1_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a class="product04" href="">L'Oreal Paris Studio Line</a>
+                    <p>We know that some hair seems to be bad-tempered
+                        For saving your time, please use filters: brand, concerns, formulation, ingredient preferences,
+                        siz...</p>
+                    <span>$90.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <h3>BROWSE OUR CATEGORIES </h3>
+
+
+    <div class="container News">
+        <h2 class="py-4"><span class="titleBold">SEE</span> <span class="title200">WHAT'S NEW ON OUR BLOG</span> </h2>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/category1_c699b5ea-b75e-4185-9a8e-2a65b0fc3814_430x396_crop_top.jpg"
-                    alt="">
-                <h5>Men’s hair care</h5>
-                <p>7 products</p>
+            <div class="col-12 col-md-4">
+                <time>14 January</time>
+                <p>Posted by David Braun</p>
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/blog3_a7f4371f-e5f2-46ae-a3c0-01ff3da3296e_536x272_crop_top.jpg"
+                        alt="">
+                </div>
+                <div class="txt">
+                    <a href="">You brig beauty to the world</a>
+                    <p>Coco Chanel saidthat a woman who cuts her hair is about...</p>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Read more</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/category2_430x396_crop_top.jpg" alt="">
-                <h5>Hair styling</h5>
-                <p>13 products</p>
+            <div class="col-12 col-md-4">
+                <time>14 January</time>
+                <p>Posted by David Braun</p>
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/blog2_536x272_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Of best hair products here</a>
+                    <p>Whoever you are, a professional hair stylist or a person who professionally...</p>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Read more</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/category3_430x396_crop_top.jpg" alt="">
-                <h5>Hair health treatment</h5>
-                <p>9 products</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/category2_430x396_crop_top.jpg" alt="">
-                <h5>Hair care for kids</h5>
-                <p>7 products</p>
+            <div class="col-12 col-md-4">
+                <time>14 January</time>
+                <p>Posted by David Braun</p>
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/blog4_536x272_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Or to be more precise...have...</a>
+                    <p>For saving your time, please use filters: brand, concerns, formulation, ingredient
+                        preferences,...
+                    </p>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Read more</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div class="container">
-        <h3>PRODUCTS ON SALE </h3>
+    <div class="container product">
+        <h2 class="py-4"><span class="titleBold">FEATURED</span><span class="title200"> PRODUCTS </span></h2>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/argan_oil_hair_mask_01_370x370_crop_top.jpg" alt="">
-                <a href="">Argan Oil Hair Mask</a>
-                <span>$60.00</span>
-                <botton><span>Add to cart</span></botton>
-                <div class="icon"></div>
+                <div class="pic">
+                    <img class="d-block w-100"
+                        src="pic/infiniti_pro_by_conair_hair_designer_3_in_1_styling_system_02_370x370_crop_top.jpg"
+                        alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Infiniti Pro by Conair Hair Designer 3 in 1 Sty...</a>
+                    <p>We know that some hair seems to be bad-tempered
+                        For saving your time, please use filters: brand, concerns, formulation, ingredient preferences,
+                        siz...</p>
+                    <span>$50.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/garnier_fructis_01_370x370_crop_top.jpg" alt="">
-                <a href="">Garnier Fructis</a>
-                <span>$90.00</span>
-                <botton><span>Add to cart</span></botton>
-                <div class="icon"></div>
+                <div class="pic">
+                    <img class="d-block w-100"
+                        src="pic/instyler_ionic_styler_pro_ceramic_flat_iron_1_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">InStyler Ionic Styler Pro Ceramic Flat Iron</a>
+                    <p>They will style the hair-do for as long as you need
+                        Whoever you are, a professional hair stylist or a person who professionally cares about his
+                        hai...</p>
+                    <span>$66.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/herbal_essences_01_370x370_crop_top.jpg" alt="">
-                <a href="">Herbal Essences</a>
-                <span>$80.00</span>
-                <botton><span>Add to cart</span></botton>
-                <div class="icon"></div>
+                <div class="pic">
+                    <img class="d-block w-100"
+                        src="pic/jose_eber_wet_dry_flat_iron_straightener_01_370x370_crop_top.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Jose Eber Wet & Dry Flat Iron Straightener</a>
+                    <p>Take your hair to a next level with our hair sprays
+                        Whoever you are, a professional hair stylist or a person who professionally cares about his
+                        hai...</p>
+                    <span>$88.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="d-block w-100" src="pic/l_oreal_paris_studio_line_1_370x370_crop_top.jpg" alt="">
-                <a href="">L'Oreal Paris Studio Line</a>
-                <span>$90.00</span>
-                <botton><span>Add to cart</span></botton>
-                <div class="icon"></div>
+                <div class="pic">
+                    <img class="d-block w-100" src="pic/glide_thru_detangler_hair_comb_or_brush_01_370x370_crop_top.jpg"
+                        alt="">
+                </div>
+                <div class="txt">
+                    <a href="">Glide Thru Detangler Hair Comb or Brush</a>
+                    <p>Take your hair to a next level with our hair sprays
+                        Whoever you are, a professional hair stylist or a person who professionally cares about his
+                        hai...</p>
+                    <span>$56.00</span>
+                    <div class="btCenter">
+                        <a href=""><i class="pr-2 fas fa-shopping-cart"></i>Add to cart</a>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="instagram">
+        <h2 class="py-4"><span class="titleBold">FOLLOW</span><span class="title200">US ON INSTAGRAM </span></h2>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container"></div>
+            <div class="row">
+                <div class="col-12">
+                    <h3>GET OUR SPECIAL OFFERS</h3>
+                    <h4>AND THE ULTIMATE HAIR CARE TIPS & TRICKS!</h4>
+                    <div class="input-group m-auto">
+                        <input type="text" class="form-control" placeholder="Enter your email!"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <a href="" class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                        </a>
+                    </div>
+                    <h3>LET'S STAY CONNECTED</h3>
+                    <ul class="icon">
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
 
 
-    <div class="container">
-        <h2>See what's new on our Blog </h2>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <time>14 January</time>
-                <p>Posted by David Braun</p>
-                <img src="" alt="">
-                <a href="">You bring beauty to the world</a>
-                <p>Coco Chanel said that a woman who cuts her hair is about...</p>
-                <a href="">Read more</a>
-            </div>
-            <div class="col-12 col-md-4">
-                <time>14 January</time>
-                <p>Posted by David Braun</p>
-                <img src="" alt="">
-                <a href="">Of best hair products here</a>
-                <p>Whoever you are, a professional hair stylist or a person who professionally...</p>
-                <a href="">Read more</a>
-            </div>
-            <div class="col-12 col-md-4">
-                <time>14 January</time>
-                <p>Posted by David Braun</p>
-                <img src="" alt="">
-                <a href="">Or to be more precise...have...</a>
-                <p>For saving your time, please use filters: brand, concerns, formulation, ingredient preferences,...</p>
-                <a href="">Read more</a>
+    <div class="bg-dark footMenu">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="pic">
+                        <img class="d-block w-100" src="pic/footer_logo.jpg" alt="">
+                    </div>
+                    <p>This web store was originally launched in 2002 and was then titled the Style Factory. This name
+                        was a perfect fit then, simply because we’ve always had our focus on our hair care & hair
+                        treatment products lineup.</p>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>categories</h6>
+                    <ul>
+                        <li><a href="">Hair styling</a></li>
+                        <li><a href="">Men’s hair care</a></li>
+                        <li><a href="">Hair care for kids</a></li>
+                        <li><a href="">Hair health treatment</a></li>
+                        <li><a href="">Featured products</a></li>
+                        <li><a href="">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>MENU</h6>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Catalog</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h6>Contact Information</h6>
+                    <address>4578 Marmora Road, Glasgow D04 89GR</address>
+                    <span>1(234) 567-9842</span>
+                    <address>info@demolink.org</address>
+                </div>
             </div>
         </div>
     </div>
 
 
 
-
-
+    <div class="footer">
+        <div class="container ">
+            <div class="row">
+                <p>© 2020 Style Factory. All rights reserved. <span>Powered by Shopify</span> </p>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,559 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar form a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar form a:hover {
+  color: #7dd0dc;
+}
+
+.head .row .icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.head .row .icon a {
+  padding: 0 5px;
+  color: #777;
+}
+
+.head .row .icon a:hover {
+  color: #aaff99;
+}
+
+.titleBold {
+  font-weight: bold;
+}
+
+.title200 {
+  font-weight: 200;
+}
+
+.form-inline {
+  flex-flow: row;
+}
+
+.btn-outline-success {
+  color: #000;
+  border-color: #000;
+}
+
+ol.breadcrumb {
+  background-color: unset;
+  font-weight: bold;
+}
+
+.breadcrumb a {
+  color: #000;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: #ffa396;
+}
+
+.row .colorTxt {
+  margin: 15px 0;
+}
+
+.row .colorTxt:nth-child(1) {
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #7dd0dc;
+  border-bottom: 1px solid #7dd0dc;
+}
+
+.row .colorTxt:nth-child(2) {
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #d4bcb5;
+  border-bottom: 1px solid #d4bcb5;
+}
+
+.row .colorTxt:nth-child(3) {
+  text-align: center;
+  position: relative;
+  border-top: 1px solid #ffa396;
+  border-bottom: 1px solid #ffa396;
+}
+
+
+.row .colorTxt:nth-child(1)::before {
+  content: '';
+  background-color: #7dd0dc;
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.row .colorTxt:nth-child(2)::before {
+  content: '';
+  background-color: #d4bcb5;
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.row .colorTxt:nth-child(3)::before {
+  content: '';
+  background-color: #ffa396;
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.row .colorTxt a {
+  text-decoration: none;
+}
+
+.row .colorTxt h3 {
+  font-family: "Six Caps", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+.colorTxt .text-dark {
+  font-family: "Six Caps", sans-serif;
+  color: #333439;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.row .colorTxt:nth-child(1) h3 {
+  color: #7dd0dc;
+}
+
+.row .colorTxt:nth-child(2) h3 {
+  color: #d4bcb5;
+}
+
+.row .colorTxt:nth-child(3) h3 {
+  color: #ffa396;
+}
+
+.PromePic {
+  position: relative;
+  background: url(/Style_Factory/pic/promo_block_img.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+
+.PromePic .txt {
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.PromePic .txt h3 {
+  font-size: 66px;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.PromePic .txt h4 {
+  font-size: 46px;
+  font-weight: 300;
+}
+
+.PromePic .txt h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+
+.PromePic .txt a {
+  color: #000;
+  text-decoration: none;
+}
+
+.PromePic .txt a:hover {
+  color: #fff;
+}
+
+.model {
+  text-align: center;
+}
+
+.model img {
+  opacity: .7;
+  transition: .5s;
+}
+
+.model .txt {
+  padding-top: 20%;
+  padding-bottom: 30%;
+  position: relative;
+  transition: .5s;
+}
+
+.model .txt h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+}
+
+.model .txt p {
+  display: inline;
+  padding: 5px 15px;
+  border: 3px solid #000;
+}
+
+.model a {
+  text-decoration: none;
+  color: #000;
+}
+
+.model a:hover img {
+  opacity: 1;
+}
+
+.model a:hover .txt {
+  background-color: #feede9;
+  border-top: 2px solid #000;
+}
+
+.model a:hover .txt::before {
+  content: '';
+  background-color: #000;
+  width: 10%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.model a:hover p {
+  background-color: #000;
+  color: #fff;
+}
+
+.product {
+  text-align: center;
+}
+
+.product .row .col-12 {
+  display: flex;
+  border: 1px solid #eee;
+}
+
+.product .row .col-12 .pic {
+  width: 25%;
+}
+
+.product .row .col-12 .txt {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0;
+}
+
+.product .row .col-12 .txt a {
+  font-weight: lighter;
+  color: #181a1f;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.product .row .col-12 .txt p {
+  font-size: 12px;
+  color: #181a1f;
+  margin: 0;
+}
+
+.product .row .col-12 .txt span:nth-child(3) {
+  font-weight: bold;
+  margin: 30px 0 30px;
+  font-size: 30px;
+}
+
+.product .row .col-12 .txt .btCenter a {
+  border: 2px solid #000;
+  font-size: 17px;
+  color: #181a1f;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.product .row .col-12 .txt .icon {
+  margin: 30px 0;
+}
+
+.product .row .col-12 .txt .icon i {
+  margin: 0 10px;
+  color: #777;
+  transition: .5s;
+}
+
+.product .row .col-12 .txt .icon i:hover {
+  color: #ffa396;
+}
+
+.product .col-12:hover {
+  border: 1px solid #000;
+}
+
+.product .row .col-12 .btCenter a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.News {
+  text-align: center;
+}
+
+.News .col-12 {
+  margin: 20px 0;
+  padding: 15px 0;
+  position: relative;
+}
+
+.News .col-12::before {
+  content: '';
+  background-color: #000;
+  width: 10%;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+
+.News .col-12::after {
+  content: '';
+  background-color: #000;
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+.News .row time {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.News .row .pic {
+  width: 80%;
+  margin: auto;
+}
+
+.News .row .txt {
+  width: 80%;
+  margin: auto;
+}
+
+.News .row .txt a {
+  text-decoration: none;
+  color: #000;
+}
+
+.News .row .txt a:hover {
+  color: #ffa396;
+}
+
+.News .row .txt>a {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0 10px;
+}
+
+.News .row .txt p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 50px;
+}
+
+.News .row .txt .btCenter a {
+  font-size: 14px;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.News .row .btCenter a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.instagram {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.instagram .col-12 h4 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.instagram .col-12 h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.instagram .col-12 h3:nth-child(4) {
+  padding: 20px 0;
+}
+
+.instagram .col-12 ul {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram .col-12 ul a {
+  color: #000;
+  margin: 0 10px;
+  font-size: 30px;
+}
+
+.instagram .input-group a {
+  text-decoration: none;
+}
+
+.instagram .col-12 ul a:hover {
+  color: #ffaaff;
+}
+
+.footMenu {
+  padding: 30px 0;
+}
+
+.footMenu p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.footMenu h6 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.footMenu .pic {
+  width: 60%;
+}
+
+.footMenu a,
+.footMenu address,
+.footMenu span {
+  color: #aaa;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.footMenu a:hover,
+.footMenu address:hover,
+.footMenu span:hover {
+  color: #7dd0dc;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer .row p {
+  padding: 15px 0 10px;
+  font-size: 18px;
+}
+
+.footer span:hover {
+  color: #7dd0dc;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .head .logoRow {
+    position: relative;
+  }
+
+  .head .logoRow .icon {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .PromePic {
+    width: 85%;
+    margin: auto;
+  }
+
+  .product .row .col-12 {
+    display: block;
+  }
+
+  .product .row .col-12 .pic {
+    width: 100%;
+  }
+
+  .product .row .col-12 .txt {
+    width: 100%;
+  }
+
+  .product .row .col-12 .txt p {
+    display: none;
+  }
+
+  .News .row .pic {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .News .row .txt {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .footMenu .pic {
+    width: 100%;
+  }
+
+  .PromePic .txt h3 {
+    font-size: 80px;
+  }
+
+  .PromePic .txt h4 {
+    font-size: 40px;
+  }
+
+  .PromePic .txt h5 {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+  .model .txt h5 {
+    font-size: 18px;
+  }
+  .product .row .col-12 .txt .product04 {
+    font-size: 20px;
+  }
+}
