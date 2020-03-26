@@ -107,21 +107,21 @@ ol.breadcrumb {
   margin: 15px 0;
 }
 
-.colorTxt:nth-child(1) .distinct {
+.colorTxt:nth-child(1) .borderSeparate {
   text-align: center;
   position: relative;
   border-top: 1px solid #7dd0dc;
   border-bottom: 1px solid #7dd0dc;
 }
 
-.colorTxt:nth-child(2) .distinct {
+.colorTxt:nth-child(2) .borderSeparate {
   text-align: center;
   position: relative;
   border-top: 1px solid #d4bcb5;
   border-bottom: 1px solid #d4bcb5;
 }
 
-.colorTxt:nth-child(3) .distinct {
+.colorTxt:nth-child(3) .borderSeparate {
   text-align: center;
   position: relative;
   border-top: 1px solid #ffa396;
@@ -557,17 +557,17 @@ ol.breadcrumb {
   color: #7dd0dc;
 }
 
-.footer {
+footer {
   background-color: #333;
   color: #fff;
 }
 
-.footer .row p {
+footer .row p {
   padding: 15px 0 10px;
   font-size: 18px;
 }
 
-.footer span:hover {
+footer span:hover {
   color: #7dd0dc;
   cursor: pointer;
 }
@@ -614,7 +614,6 @@ ol.breadcrumb {
     left: 0;
   }
 
-
   .PromePic {
     width: 85%;
     margin: auto;
@@ -646,10 +645,6 @@ ol.breadcrumb {
     padding: 0 15px;
   }
 
-  .footMenu .pic {
-    width: 100%;
-  }
-
   .PromePic .txt h3 {
     font-size: 80px;
   }
@@ -662,6 +657,9 @@ ol.breadcrumb {
     font-size: 30px;
   }
 
+  .footMenu .pic {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width:1200px) {
