@@ -614,11 +614,6 @@ footer span:hover {
     left: 0;
   }
 
-  .PromePic {
-    width: 85%;
-    margin: auto;
-  }
-
   .product .row .col-12 {
     display: block;
   }
@@ -662,7 +657,14 @@ footer span:hover {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width:1200px) {
+@media screen and (min-width: 992px) {
+  .PromePic {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media screen and () and (max-width:1200px) {
   .model .txt h5 {
     font-size: 18px;
   }
