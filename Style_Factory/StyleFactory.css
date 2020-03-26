@@ -198,6 +198,10 @@ ol.breadcrumb {
   transition: .5s;
 }
 
+.model a:hover img {
+  opacity: 1;
+}
+
 .model .txt {
   padding-top: 20%;
   padding-bottom: 30%;
@@ -222,9 +226,6 @@ ol.breadcrumb {
   color: #000;
 }
 
-.model a:hover img {
-  opacity: 1;
-}
 
 .model a:hover .txt {
   background-color: #feede9;
@@ -553,6 +554,7 @@ ol.breadcrumb {
   .model .txt h5 {
     font-size: 18px;
   }
+
   .product .row .col-12 .txt .product04 {
     font-size: 20px;
   }
