@@ -110,7 +110,6 @@ ol.breadcrumb {
 .colorTxt .borderSeparate {
   padding: 20px 0;
   text-align: center;
-  position: relative;
 }
 
 .colorTxt:nth-child(1) .borderSeparate {
