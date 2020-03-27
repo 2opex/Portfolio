@@ -107,23 +107,23 @@ ol.breadcrumb {
   margin: 15px 0;
 }
 
-.colorTxt:nth-child(1) .borderSeparate {
+.colorTxt .borderSeparate {
+  padding: 20px 0;
   text-align: center;
   position: relative;
+}
+
+.colorTxt:nth-child(1) .borderSeparate {
   border-top: 1px solid #7dd0dc;
   border-bottom: 1px solid #7dd0dc;
 }
 
 .colorTxt:nth-child(2) .borderSeparate {
-  text-align: center;
-  position: relative;
   border-top: 1px solid #d4bcb5;
   border-bottom: 1px solid #d4bcb5;
 }
 
 .colorTxt:nth-child(3) .borderSeparate {
-  text-align: center;
-  position: relative;
   border-top: 1px solid #ffa396;
   border-bottom: 1px solid #ffa396;
 }
@@ -659,7 +659,7 @@ footer span:hover {
 
 @media screen and (min-width: 992px) {
   .PromePic {
-    max-width:1140px;
+    max-width: 1140px;
     margin: auto;
   }
 }
