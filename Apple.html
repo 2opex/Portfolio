@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>iphone</button>
+    <button>ipad</button>
+    <button>mac</button>
+    <button>watch</button>
+    <script>
+        //iPhone, iPad, Mac, Watch
+        var products = {
+            iphone: {
+                p01: { id: 'p01', color: '紅', price: '45000', storage: '64G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-red-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956144763', url: '#' },
+                p02: { id: 'p02', color: '藍', price: '47000', storage: '128G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-green-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956144838', url: '#' },
+                p03: { id: 'p03', color: '黃', price: '58000', storage: '256G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-wifi-select-gold-201909_GEO_TW?wid=470&hei=556&fmt=png-alpha&.v=1567302181892', url: '#' }
+            },
+            ipad: {
+                x01: { id: 'x01', color: '太空灰', price: '45000', storage: '64G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-wifi-select-space-201909_GEO_TW?wid=470&hei=556&fmt=png-alpha&.v=1567443080749', url: '#' },
+                x02: { id: 'x02', color: '銀色', price: '57000', storage: '128G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-wifi-select-silver-201909_GEO_TW?wid=470&hei=556&fmt=png-alpha&.v=1567299773948', url: '#' },
+                x02: { id: 'x02', color: '金色', price: '67000', storage: '256G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-wifi-select-silver-201909_GEO_TW?wid=470&hei=556&fmt=png-alpha&.v=1567299773948', url: '#' },
+            },
+            mac: {
+                e01: { id: 'e01', color: '灰', price: '65000', storage: '64G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1541713862468', url: '#' },
+                e02: { id: 'e02', color: '金', price: '77000', storage: '128G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-gold-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1541713859040', url: '#' },
+                e03: { id: 'e03', color: '白', price: '98000', storage: '256G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-silver-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1541713861325', url: '#' }
+            },
+            watch: {
+                w01: { id: 'w01', color: '白', price: '15000', storage: '64G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTPK2_VW_PF+watch-44-alum-silver-nc-5s_VW_PF_WF_CO_GEO_TW?wid=375&hei=356&fmt=p-jpg&qlt=95&op_usm=0.5,0.5&.v=1566419579642,1567126522785', url: '#' },
+                w02: { id: 'w02', color: '金', price: '17000', storage: '128G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTPM2_VW_PF+watch-44-alum-gold-nc-5s_VW_PF_WF_CO_GEO_TW?wid=375&hei=356&fmt=p-jpg&qlt=95&op_usm=0.5,0.5&.v=1566419585195,1567124933778', url: '#' },
+                w03: { id: 'w03', color: '黑', price: '18000', storage: '256G', network: 'Wifi', pic: 'https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTPL2_VW_PF+watch-44-alum-spacegray-nc-5s_VW_PF_WF_CO_GEO_TW?wid=375&hei=356&fmt=p-jpg&qlt=95&op_usm=0.5,0.5&.v=1566419575240,1567126699040', url: '#' }
+            }
+        };
+        var body = document.querySelector('body');
+
+        function getIphone() {
+            let div = document.createElement('div');
+            for (let item in products.iphone) {
+                let phone = products.iphone[`${item}`];
+                let img = document.createElement('img');
+                let ul = document.createElement('ul');
+                let address = phone.pic;
+                img.setAttribute('src', address);
+                div.appendChild(img);
+                div.appendChild(ul);
+                for (let it in phone) {
+                    let li = document.createElement('li');
+                    li.innerHTML = `${it} : ` + products.iphone[`${item}`][`${it}`];
+                    ul.appendChild(li);
+                }
+            }
+            body.appendChild(div);
+        }
+        function getIpad() {
+            let div = document.createElement('div');
+            for (let item in products.ipad) {
+                let phone = products.ipad[`${item}`];
+                let img = document.createElement('img');
+                let ul = document.createElement('ul');
+                let address = phone.pic;
+                img.setAttribute('src', address);
+                div.appendChild(img);
+                div.appendChild(ul);
+                for (let it in phone) {
+                    let li = document.createElement('li');
+                    li.innerHTML = `${it} : ` + products.ipad[`${item}`][`${it}`];
+                    ul.appendChild(li);
+                }
+            }
+            body.appendChild(div);
+        }
+        function getMac() {
+            let div = document.createElement('div');
+            for (let item in products.mac) {
+                let phone = products.mac[`${item}`];
+                let img = document.createElement('img');
+                let ul = document.createElement('ul');
+                let address = phone.pic;
+                img.setAttribute('src', address);
+                div.appendChild(img);
+                div.appendChild(ul);
+                for (let it in phone) {
+                    let li = document.createElement('li');
+                    li.innerHTML = `${it} : ` + products.mac[`${item}`][`${it}`];
+                    ul.appendChild(li);
+                }
+            }
+            body.appendChild(div);
+        }
+        function getWatch() {
+            let div = document.createElement('div');
+            for (let item in products.watch) {
+                let phone = products.watch[`${item}`];
+                let img = document.createElement('img');
+                let ul = document.createElement('ul');
+                let address = phone.pic;
+                img.setAttribute('src', address);
+                div.appendChild(img);
+                div.appendChild(ul);
+                for (let it in phone) {
+                    let li = document.createElement('li');
+                    li.innerHTML = `${it} : ` + products.watch[`${item}`][`${it}`];
+                    ul.appendChild(li);
+                }
+            }
+            body.appendChild(div);
+        }
+        var btnIphone = document.querySelector('button:nth-child(1)');
+        btnIphone.addEventListener('click', getIphone);
+        var btnIpad = document.querySelector('button:nth-child(2)');
+        btnIpad.addEventListener('click', getIpad);
+        var btnMac = document.querySelector('button:nth-child(3)');
+        btnMac.addEventListener('click', getMac);
+        var btnWatch = document.querySelector('button:nth-child(4)');
+        btnWatch.addEventListener('click', getWatch);
+    </script>
+</body>
+
+</html>
