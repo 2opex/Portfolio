@@ -49,6 +49,8 @@
         var input = document.querySelector('input');
         var Ans = String();
         startGame.addEventListener('click', () => {
+            ul.innerHTML = null;
+            input.value = null;
             Ans = String();
             Ans = Math.floor(Math.random() * 10).toString();
             while (Ans.length != 4) {
