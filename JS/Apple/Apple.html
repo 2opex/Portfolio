@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/4b2c9cbe81.js" crossorigin="anonymous"></script>
     <title>Hello, Apple!</title>
 </head>
 
@@ -96,15 +96,25 @@
                 exterior.innerHTML = null;
                 specification.innerHTML = null;
                 var img = document.createElement('img');
+
                 img.setAttribute('src', products[`${item.innerText}`].show);
                 img.style.width = '100%';
                 pic.appendChild(img);
                 var span = document.createElement('span');
                 for (let color of products[`${item.innerText}`].exterior) {
                     var btnColor = document.createElement('button');
+                    var icon = document.createElement('i');
+                    var colorSpan = document.createElement('span');
+                    icon.className = 'fas fa-circle';
+                    icon.style.fontSize = '30px';
+                    icon.style.color = `${color.color}`;
+                    icon.style.backgroundColor = `${color.color}`;
+                    icon.style.border = '1px solid #000';
+                    icon.style.borderRadius = '100%';
+                    colorSpan.innerHTML = '<br>' + color.colorName;
                     exterior.appendChild(btnColor);
-                    btnColor.innerHTML = color.colorName;
-                    btnColor.style.backgroundColor = color.color;
+                    btnColor.appendChild(icon);
+                    btnColor.appendChild(colorSpan);
                     btnColor.style.width = '25%';
                     btnColor.style.height = '100px';
                     btnColor.addEventListener('click', () => {
