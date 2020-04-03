@@ -78,8 +78,15 @@
                 alert('請先開始遊戲');
             }
         })
-        doGuess.addEventListener('click', () => {
+        doGuess.addEventListener('click', () => { getResult(); })
 
+        input.addEventListener('keyup', (event) => {
+            if (event.keyCode == 13) {
+                getResult();
+            }
+        })
+
+        function getResult() {
             if (Ans.length == 4) {
                 if (input.value.length != 4) {
                     alert('請輸入四位數');
@@ -121,7 +128,7 @@
             else {
                 alert('請先開始遊戲');
             }
-        })
+        }
     </script>
 
 
