@@ -1,0 +1,141 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, XAXB!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="btn-group col-12" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary col-4">開始</button>
+                <button type="button" class="btn btn-secondary col-4">放棄重來</button>
+                <button type="button" class="btn btn-secondary col-4">看答案</button>
+            </div>
+            <div class="col-12">
+                <ul></ul>
+            </div>
+            <div class="col-12">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">猜答案</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="butGuess">猜!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var startGame = document.querySelector('.btn-group>button:nth-child(1)');
+        var aboatGame = document.querySelector('.btn-group>button:nth-child(2)');
+        var showAnswear = document.querySelector('.btn-group>button:nth-child(3)');
+        var doGuess = document.getElementById('butGuess');
+        var ul = document.querySelector('ul');
+        var input = document.querySelector('input');
+        var Ans = String();
+        startGame.addEventListener('click', () => {
+            Ans = String();
+            Ans = Math.floor(Math.random() * 10).toString();
+            while (Ans.length != 4) {
+                var randomNum = Math.floor(Math.random() * 10).toString();
+                if (!Ans.includes(randomNum))
+                    Ans += randomNum;
+            }
+        })
+        aboatGame.addEventListener('click', () => {
+            if (Ans.length == 4) {
+                alert(`答案是 : ${Ans}`);
+                ul.innerHTML = null;
+                input.value = null;
+                Ans = String();
+            }
+            else {
+                alert('請先開始遊戲');
+            }
+        })
+        showAnswear.addEventListener('click', () => {
+            if (Ans.length == 4) {
+                alert(`答案是 : ${Ans}`);
+            }
+            else {
+                alert('請先開始遊戲');
+            }
+        })
+        doGuess.addEventListener('click', () => {
+
+            if (Ans.length == 4) {
+                if (input.value.length != 4) {
+                    alert('請輸入四位數');
+                }
+                else {
+                    var countofA = 0;
+                    var countofB = 0;
+                    var intersect = [];
+                    for (let ansNum of Ans) {
+                        for (let inputNum of input.value) {
+                            if (ansNum == inputNum) {
+                                intersect.push(ansNum);
+                            }
+                        }
+                    }
+                    intersect.forEach(function (item, index, array) {
+                        if (Ans.indexOf(item) == input.value.indexOf(item)) {
+                            countofA++;
+                        }
+                        else {
+                            countofB++;
+                        }
+                    })
+                    var li = document.createElement('li');
+                    ul.appendChild(li);
+                    if (input.value != Ans) {
+                        li.innerHTML = `<span class="badge badge-danger mr-3">${countofA}A${countofB}B</span>` + input.value;
+                    }
+                    else {
+                        li.innerHTML = '<span class="badge badge-success mr-3">4A0B</span>' + input.value;
+                    }
+                    ul.style.listStyle = 'none';
+                    ul.style.padding = '0';
+                    ul.style.margin = '0';
+                    li.className = 'list-group-item';
+                    input.value = null;
+                }
+            }
+            else {
+                alert('請先開始遊戲');
+            }
+        })
+    </script>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
