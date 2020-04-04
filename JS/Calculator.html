@@ -1,0 +1,196 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, calculator!</title>
+    <style>
+        .calculator {
+            text-align: center;
+        }
+
+        input {
+            padding: 3.51041666666667% 0;
+            margin-top: 6.30208333333333%;
+            background-color: #444;
+            color: #fff;
+            font-size: 50px;
+            text-align: right;
+        }
+
+        button {
+            padding: 6.51041666666667% 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .d-flex:nth-child(2) button,
+        .d-flex:nth-child(3) button:last-child,
+        .d-flex:nth-child(4) button:last-child,
+        .d-flex:nth-child(5) button:last-child,
+        .d-flex:nth-child(6) button:last-child {
+            background-color: #222;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="calculator">
+                    <div class="col-12 m-auto">
+                        <input class="w-100" type="text">
+                    </div>
+                    <div class="col-12 d-flex no-gutters">
+                        <button class="w-100 " id="CE">CE</button>
+                        <button class="w-100 " id="clear">C</button>
+                        <button class="w-100 " id="back">DEL</button>
+                        <button class="w-100 " id="division">÷</button>
+                    </div>
+                    <div class="col-12 d-flex no-gutters">
+                        <button class="w-100 num">7</button>
+                        <button class="w-100 num">8</button>
+                        <button class="w-100 num">9</button>
+                        <button class="w-100 " id="multiplicat">×</button>
+                    </div>
+                    <div class="col-12 d-flex no-gutters">
+                        <button class="w-100 num">4</button>
+                        <button class="w-100 num">5</button>
+                        <button class="w-100 num">6</button>
+                        <button class="w-100 " id="subtract">－</button>
+                    </div>
+                    <div class="col-12 d-flex no-gutters">
+                        <button class="w-100 num">1</button>
+                        <button class="w-100 num">2</button>
+                        <button class="w-100 num">3</button>
+                        <button class="w-100 " id="add">＋</button>
+                    </div>
+                    <div class="col-12 d-flex no-gutters">
+                        <button class="w-100 " id="PosAndNeg">+/-</button>
+                        <button class="w-100 num">0</button>
+                        <button class="w-100 num">.</button>
+                        <button class="w-100 " id="equal">＝</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var input = document.querySelector('input');
+        var btnNum = document.getElementsByClassName('num');
+        var forward = Number();
+        var afterward = Number();
+        var record = Number();
+        var operator = String();
+        var isClear = false;
+        var isAfter = false;
+        var isFirst = true;
+        for (let item of btnNum) {
+            item.addEventListener('click', () => {
+                if (isClear) {
+                    input.value = String();
+                    isClear = false;
+                }
+                input.value = input.value.concat(item.innerHTML);
+                afterward = input.value;
+                switch (operator) {
+                    case '+': record = Addition(forward, afterward); break;
+                    case '-': record = Substration(forward, afterward); break;
+                    case '*': record = Multiplication(forward, afterward); break;
+                    case '/': record = Division(forward, afterward); break;
+                }
+            })
+        };
+        // -------------------------------------------------------------------------------
+        var btnAdd = document.getElementById('add');
+        var btnSubstrat = document.getElementById('subtract');
+        var btnMultiplicat = document.getElementById('multiplicat');
+        var btnDivision = document.getElementById('division');
+        var btnEqual = document.getElementById('equal');
+        btnAdd.addEventListener('click', () => {
+            isClear = true;
+            operator = '+';
+            forward = input.value;
+            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
+            isFirst = false;
+            forward = input.value;
+        });
+        btnSubstrat.addEventListener('click', () => {
+            isClear = true;
+            operator = '-';
+            forward = input.value;
+            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
+            isFirst = false;
+            forward = input.value;
+        });
+        btnMultiplicat.addEventListener('click', () => {
+            isClear = true;
+            operator = '*';
+            forward = input.value;
+            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
+            isFirst = false;
+            forward = input.value;
+        });
+        btnDivision.addEventListener('click', () => {
+            isClear = true;
+            operator = '/';
+            forward = input.value;
+            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
+            isFirst = false;
+            forward = input.value;
+        });
+        btnEqual.addEventListener('click', () => {
+            isClear = true;
+            forward = input.value;
+            input.value = record;
+            forward = input.value;
+        });
+        // -------------------------------------------------------------------------------
+        function Addition(forward, afterward) { return Number.parseFloat(forward) + Number.parseFloat(afterward); }
+        function Substration(forward, afterward) { return Number.parseFloat(forward) - Number.parseFloat(afterward); }
+        function Multiplication(forward, afterward) { return Number.parseFloat(forward) * Number.parseFloat(afterward); }
+        function Division(forward, afterward) { return Number.parseFloat(forward) / Number.parseFloat(afterward); }
+        // -------------------------------------------------------------------------------
+        function clearInput() {
+            input.value = String();
+            forward = Number();
+            afterward = Number();
+            record = Number();
+            operator = String();
+            isClear = false;
+        }
+        // -------------------------------------------------------------------------------
+        var btnCE = document.getElementById('CE');
+        var btnClear = document.getElementById('clear');
+        var btnDel = document.getElementById('back');
+        btnCE.addEventListener('click', () => { clearInput(); })
+        btnClear.addEventListener('click', () => { clearInput(); })
+        btnDel.addEventListener('click', () => { input.value = input.value.substring(0, input.value.length - 1); afterward = input.value; })
+        // -------------------------------------------------------------------------------
+        var btnPosAndNeg = document.getElementById('PosAndNeg');
+        btnPosAndNeg.addEventListener('click', () => { input.value = Number.parseFloat(input.value) * -1; afterward = input.value; })
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
