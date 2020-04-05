@@ -92,7 +92,6 @@
         var record = Number();
         var operator = String();
         var isClear = false;
-        var isAfter = false;
         var isFirst = true;
         for (let item of btnNum) {
             item.addEventListener('click', () => {
@@ -175,10 +174,10 @@
         var btnDel = document.getElementById('back');
         btnCE.addEventListener('click', () => { clearInput(); })
         btnClear.addEventListener('click', () => { clearInput(); })
-        btnDel.addEventListener('click', () => { input.value = input.value.substring(0, input.value.length - 1); record = input.value; })
+        btnDel.addEventListener('click', () => { input.value = input.value.substring(0, input.value.length - 1); forward = input.value; record = input.value; isClear = false; })
         // -------------------------------------------------------------------------------
         var btnPosAndNeg = document.getElementById('PosAndNeg');
-        btnPosAndNeg.addEventListener('click', () => { input.value = Number.parseFloat(input.value) * -1; record = input.value; })
+        btnPosAndNeg.addEventListener('click', () => { input.value = Number.parseFloat(input.value) * -1; forward = input.value; record = input.value; isClear = false; })
     </script>
 
     <!-- Optional JavaScript -->
