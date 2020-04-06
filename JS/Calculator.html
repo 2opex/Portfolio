@@ -95,20 +95,23 @@
         var isFirst = true;
         for (let item of btnNum) {
             item.addEventListener('click', () => {
-                if (isClear) {
-                    input.value = String();
-                    isClear = false;
-                }
-                input.value = input.value.concat(item.innerHTML);
-                afterward = input.value;
-                switch (operator) {
-                    case '+': record = Addition(forward, afterward); break;
-                    case '-': record = Substration(forward, afterward); break;
-                    case '*': record = Multiplication(forward, afterward); break;
-                    case '/': record = Division(forward, afterward); break;
-                }
+                calculate(item);
             })
         };
+        function calculate(item) {
+            if (isClear) {
+                input.value = String();
+                isClear = false;
+            }
+            input.value = input.value.concat(item.innerHTML);
+            afterward = input.value;
+            switch (operator) {
+                case '+': record = Addition(forward, afterward); break;
+                case '-': record = Substration(forward, afterward); break;
+                case '*': record = Multiplication(forward, afterward); break;
+                case '/': record = Division(forward, afterward); break;
+            }
+        }
         // -------------------------------------------------------------------------------
         var btnAdd = document.getElementById('add');
         var btnSubstrat = document.getElementById('subtract');
@@ -176,9 +179,14 @@
         btnClear.addEventListener('click', () => { clearInput(); })
         btnDel.addEventListener('click', () => {
             input.value = input.value.substring(0, input.value.length - 1);
-            forward = input.value;
+            afterward = input.value;
             record = input.value;
-            isClear = false;
+            switch (operator) {
+                case '+': record = Addition(forward, afterward); break;
+                case '-': record = Substration(forward, afterward); break;
+                case '*': record = Multiplication(forward, afterward); break;
+                case '/': record = Division(forward, afterward); break;
+            }
         })
         // -------------------------------------------------------------------------------
         var btnPosAndNeg = document.getElementById('PosAndNeg');
