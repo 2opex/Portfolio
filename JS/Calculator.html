@@ -53,7 +53,7 @@
                     <div class="col-12 d-flex no-gutters">
                         <button class="w-100 " id="CE">CE</button>
                         <button class="w-100 " id="clear">C</button>
-                        <button class="w-100 " id="back">DEL</button>
+                        <!-- <button class="w-100 " id="back">DEL</button> -->
                         <button class="w-100 " id="division">÷</button>
                     </div>
                     <div class="col-12 d-flex no-gutters">
@@ -75,7 +75,7 @@
                         <button class="w-100 " id="add">＋</button>
                     </div>
                     <div class="col-12 d-flex no-gutters">
-                        <button class="w-100 " id="PosAndNeg">+/-</button>
+                        <!-- <button class="w-100 " id="PosAndNeg">+/-</button> -->
                         <button class="w-100 num">0</button>
                         <button class="w-100 num">.</button>
                         <button class="w-100 " id="equal">＝</button>
@@ -116,43 +116,32 @@
         var btnDivision = document.getElementById('division');
         var btnEqual = document.getElementById('equal');
         btnAdd.addEventListener('click', () => {
-            isClear = true;
             operator = '+';
-            forward = input.value;
-            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
-            isFirst = false;
-            forward = input.value;
+            distingush();
         });
         btnSubstrat.addEventListener('click', () => {
-            isClear = true;
             operator = '-';
-            forward = input.value;
-            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
-            isFirst = false;
-            forward = input.value;
+            distingush();
         });
         btnMultiplicat.addEventListener('click', () => {
-            isClear = true;
             operator = '*';
-            forward = input.value;
-            input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
-            isFirst = false;
-            forward = input.value;
+            distingush();
         });
         btnDivision.addEventListener('click', () => {
-            isClear = true;
             operator = '/';
+            distingush();
+        });
+        btnEqual.addEventListener('click', () => {
+            distingush();
+            isFirst = true;
+        });
+        function distingush() {
+            isClear = true;
             forward = input.value;
             input.value = (record == '0') ? ((isFirst) ? forward : record) : record;
             isFirst = false;
             forward = input.value;
-        });
-        btnEqual.addEventListener('click', () => {
-            isClear = true;
-            forward = input.value;
-            input.value = record;
-            forward = input.value;
-        });
+        }
         // -------------------------------------------------------------------------------
         function Addition(forward, afterward) { return Number.parseFloat(forward) + Number.parseFloat(afterward); }
         function Substration(forward, afterward) { return Number.parseFloat(forward) - Number.parseFloat(afterward); }
@@ -171,23 +160,23 @@
         // -------------------------------------------------------------------------------
         var btnCE = document.getElementById('CE');
         var btnClear = document.getElementById('clear');
-        var btnDel = document.getElementById('back');
+        // var btnDel = document.getElementById('back');
         btnCE.addEventListener('click', () => { clearInput(); })
         btnClear.addEventListener('click', () => { clearInput(); })
-        btnDel.addEventListener('click', () => {
-            input.value = input.value.substring(0, input.value.length - 1);
-            forward = input.value;
-            record = input.value;
-            isClear = false;
-        })
-        // -------------------------------------------------------------------------------
-        var btnPosAndNeg = document.getElementById('PosAndNeg');
-        btnPosAndNeg.addEventListener('click', () => {
-            input.value = Number.parseFloat(input.value) * -1;
-            forward = input.value;
-            record = input.value;
-            isClear = false;
-        })
+        // btnDel.addEventListener('click', () => {
+        //     input.value = input.value.substring(0, input.value.length - 1);
+        //     forward = input.value;
+        //     record = input.value;
+        //     isClear = false;
+        // })
+        // // -------------------------------------------------------------------------------
+        // var btnPosAndNeg = document.getElementById('PosAndNeg');
+        // btnPosAndNeg.addEventListener('click', () => {
+        //     input.value = Number.parseFloat(input.value) * -1;
+        //     forward = input.value;
+        //     record = input.value;
+        //     isClear = false;
+        // })
     </script>
 
     <!-- Optional JavaScript -->
