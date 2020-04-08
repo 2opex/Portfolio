@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/4b2c9cbe81.js" crossorigin="anonymous"></script>
     <title>iPad Table</title>
 </head>
 
@@ -38,33 +38,125 @@
                 iPad = JSON.parse(this.responseText);
                 addThead(iPad[0]);
                 addTbody(iPad);
+                var isSkuClick = true;
                 var skuClick = document.querySelector('th');
                 skuClick.addEventListener('click', () => {
 
                     console.log(skuQuickSort(iPad));
 
                     tbody.innerHTML = null;
-                    addTbody(skuQuickSort(iPad));
+                    if (isSkuClick) {
+                        addTbody(skuQuickSort(iPad));
+                        isSkuClick = false;
+                    }
+                    else {
+                        addTbody(skuQuickSort(iPad));
+                        isSkuClick = true;
+                    }
+                    function skuQuickSort(arr) {
+                        if (arr.length <= 1) {
+                            return arr;
+                        }
+                        let temp = arr[0];
+                        const left = [];
+                        const right = [];
+                        for (var i = 1; i < arr.length; i++) {
+                            if (arr[i].sku > temp.sku) {
+                                right.push(arr[i]);
+                            }
+                            else {
+                                left.push(arr[i]);
+                            }
+                        }
+
+                        if (isSkuClick) {
+                            return skuQuickSort(left).concat([temp], skuQuickSort(right));
+                        }
+                        else {
+                            return skuQuickSort(right).concat([temp], skuQuickSort(left));
+                        }
+                    }
                 })
 
-
+                var isPriceClick = true;
                 var priceClick = document.querySelector('th:nth-child(2)');
                 priceClick.addEventListener('click', () => {
 
                     console.log(priceQuickSort(iPad));
 
                     tbody.innerHTML = null;
-                    addTbody(priceQuickSort(iPad));
+                    if (isPriceClick) {
+                        addTbody(priceQuickSort(iPad));
+                        isPriceClick = false;
+                    }
+                    else {
+                        addTbody(priceQuickSort(iPad));
+                        isPriceClick = true;
+                    }
+
+                    function priceQuickSort(arr) {
+                        if (arr.length <= 1) {
+                            return arr;
+                        }
+                        let temp = arr[0];
+                        const left = [];
+                        const right = [];
+                        for (var i = 1; i < arr.length; i++) {
+                            if (arr[i].price > temp.price) {
+                                right.push(arr[i]);
+                            }
+                            else {
+                                left.push(arr[i]);
+                            }
+                        }
+
+                        if (isPriceClick) {
+                            return skuQuickSort(priceQuickSort(left)).concat([temp], priceQuickSort(right));
+                        }
+                        else {
+                            return priceQuickSort(skuQuickSort(right)).concat([temp], priceQuickSort(left));
+                        }
+                    }
                 })
 
-
+                var isStorageClick = true;
                 var storageClick = document.querySelector('th:nth-child(3)');
                 storageClick.addEventListener('click', () => {
 
                     console.log(storageQuickSort(iPad));
 
                     tbody.innerHTML = null;
-                    addTbody(storageQuickSort(iPad));
+                    if (isStorageClick) {
+                        addTbody(storageQuickSort(iPad));
+                        isStorageClick = false;
+                    }
+                    else {
+                        addTbody(storageQuickSort(iPad));
+                        isStorageClick = true;
+                    }
+                    function storageQuickSort(arr) {
+
+                        if (arr.length <= 1) {
+                            return arr;
+                        }
+                        let temp = arr[0];
+                        const left = [];
+                        const right = [];
+                        for (var i = 1; i < arr.length; i++) {
+                            if (Number.parseInt(arr[i].storage) > Number.parseInt(temp.storage)) {
+                                right.push(arr[i]);
+                            }
+                            else {
+                                left.push(arr[i]);
+                            }
+                        }
+                        if (isStorageClick) {
+                            return skuQuickSort(storageQuickSort(left)).concat([temp], storageQuickSort(right));
+                        }
+                        else {
+                            return skuQuickSort(storageQuickSort(right)).concat([temp], storageQuickSort(left));
+                        }
+                    }
                 })
             }
             xhr.open('GET', 'http://127.0.0.1:5501/JS/Apple/iPad.JSON');
@@ -94,6 +186,14 @@
                 tr.appendChild(th);
                 th.innerHTML = item;
                 th.style.cursor = 'pointer';
+            }
+            let btn_sort = document.querySelectorAll('th');
+            console.log(btn_sort);
+            for (let index = 0; index < 3; index++) {
+                let i = document.createElement('i');
+                btn_sort[index].appendChild(i);
+                i.classList.add('fas');
+                i.classList.add('fa-sort');
             }
         }
 
@@ -144,42 +244,8 @@
             return skuQuickSort(left).concat([temp], skuQuickSort(right));
         }
 
-        function priceQuickSort(arr) {
-            if (arr.length <= 1) {
-                return arr;
-            }
-            let temp = arr[0];
-            const left = [];
-            const right = [];
-            for (var i = 1; i < arr.length; i++) {
-                if (arr[i].price > temp.price) {
-                    right.push(arr[i]);
-                }
-                else {
-                    left.push(arr[i]);
-                }
-            }
-            return skuQuickSort(priceQuickSort(left)).concat([temp], priceQuickSort(right));
-        }
 
 
-        function storageQuickSort(arr) {
-            if (arr.length <= 1) {
-                return arr;
-            }
-            let temp = arr[0];
-            const left = [];
-            const right = [];
-            for (var i = 1; i < arr.length; i++) {
-                if (Number.parseInt(arr[i].storage) > Number.parseInt(temp.storage)) {
-                    right.push(arr[i]);
-                }
-                else {
-                    left.push(arr[i]);
-                }
-            }
-            return skuQuickSort(storageQuickSort(left)).concat([temp], storageQuickSort(right));
-        }
     </script>
 
     <!-- Optional JavaScript -->
