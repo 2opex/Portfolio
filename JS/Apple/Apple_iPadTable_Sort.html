@@ -41,9 +41,6 @@
                 var isSkuClick = true;
                 var skuClick = document.querySelector('th');
                 skuClick.addEventListener('click', () => {
-
-                    console.log(skuQuickSort(iPad));
-
                     tbody.innerHTML = null;
                     if (isSkuClick) {
                         addTbody(skuQuickSort(iPad));
@@ -68,7 +65,6 @@
                                 left.push(arr[i]);
                             }
                         }
-
                         if (isSkuClick) {
                             return skuQuickSort(left).concat([temp], skuQuickSort(right));
                         }
@@ -81,9 +77,6 @@
                 var isPriceClick = true;
                 var priceClick = document.querySelector('th:nth-child(2)');
                 priceClick.addEventListener('click', () => {
-
-                    console.log(priceQuickSort(iPad));
-
                     tbody.innerHTML = null;
                     if (isPriceClick) {
                         addTbody(priceQuickSort(iPad));
@@ -93,7 +86,6 @@
                         addTbody(priceQuickSort(iPad));
                         isPriceClick = true;
                     }
-
                     function priceQuickSort(arr) {
                         if (arr.length <= 1) {
                             return arr;
@@ -102,14 +94,13 @@
                         const left = [];
                         const right = [];
                         for (var i = 1; i < arr.length; i++) {
-                            if (arr[i].price > temp.price) {
+                            if (Number.parseInt(arr[i].price) > Number.parseInt(temp.price)) {
                                 right.push(arr[i]);
                             }
                             else {
                                 left.push(arr[i]);
                             }
                         }
-
                         if (isPriceClick) {
                             return skuQuickSort(priceQuickSort(left)).concat([temp], priceQuickSort(right));
                         }
@@ -122,9 +113,6 @@
                 var isStorageClick = true;
                 var storageClick = document.querySelector('th:nth-child(3)');
                 storageClick.addEventListener('click', () => {
-
-                    console.log(storageQuickSort(iPad));
-
                     tbody.innerHTML = null;
                     if (isStorageClick) {
                         addTbody(storageQuickSort(iPad));
@@ -135,7 +123,6 @@
                         isStorageClick = true;
                     }
                     function storageQuickSort(arr) {
-
                         if (arr.length <= 1) {
                             return arr;
                         }
@@ -143,7 +130,7 @@
                         const left = [];
                         const right = [];
                         for (var i = 1; i < arr.length; i++) {
-                            if (Number.parseInt(arr[i].storage) > Number.parseInt(temp.storage)) {
+                            if (arr[i].storage > temp.storage) {
                                 right.push(arr[i]);
                             }
                             else {
@@ -151,10 +138,10 @@
                             }
                         }
                         if (isStorageClick) {
-                            return skuQuickSort(storageQuickSort(left)).concat([temp], storageQuickSort(right));
+                            return storageQuickSort(left).concat([temp], storageQuickSort(right));
                         }
                         else {
-                            return skuQuickSort(storageQuickSort(right)).concat([temp], storageQuickSort(left));
+                            return storageQuickSort(right).concat([temp], storageQuickSort(left));
                         }
                     }
                 })
