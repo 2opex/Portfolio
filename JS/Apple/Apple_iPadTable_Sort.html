@@ -15,7 +15,7 @@
 
 <body>
     <div id="msg">
-        <h1>Apple iPad</h1>
+        <h1>Apple iPad </h1>
     </div>
     <script>
 
@@ -47,7 +47,7 @@
                         isSkuClick = false;
                     }
                     else {
-                        addTbody(skuQuickSort(iPad));
+                        addTbody(skuQuickSort(iPad).reverse());
                         isSkuClick = true;
                     }
                     function skuQuickSort(arr) {
@@ -65,12 +65,7 @@
                                 left.push(arr[i]);
                             }
                         }
-                        if (isSkuClick) {
-                            return skuQuickSort(left).concat([temp], skuQuickSort(right));
-                        }
-                        else {
-                            return skuQuickSort(right).concat([temp], skuQuickSort(left));
-                        }
+                        return skuQuickSort(left).concat([temp], skuQuickSort(right));
                     }
                 })
 
@@ -83,7 +78,7 @@
                         isPriceClick = false;
                     }
                     else {
-                        addTbody(priceQuickSort(iPad));
+                        addTbody(priceQuickSort(iPad).reverse());
                         isPriceClick = true;
                     }
                     function priceQuickSort(arr) {
@@ -101,12 +96,8 @@
                                 left.push(arr[i]);
                             }
                         }
-                        if (isPriceClick) {
-                            return skuQuickSort(priceQuickSort(left)).concat([temp], priceQuickSort(right));
-                        }
-                        else {
-                            return priceQuickSort(skuQuickSort(right)).concat([temp], priceQuickSort(left));
-                        }
+
+                        return skuQuickSort(priceQuickSort(left)).concat([temp], priceQuickSort(right));
                     }
                 })
 
@@ -119,7 +110,7 @@
                         isStorageClick = false;
                     }
                     else {
-                        addTbody(storageQuickSort(iPad));
+                        addTbody(storageQuickSort(iPad).reverse());
                         isStorageClick = true;
                     }
                     function storageQuickSort(arr) {
@@ -137,12 +128,7 @@
                                 left.push(arr[i]);
                             }
                         }
-                        if (isStorageClick) {
-                            return storageQuickSort(left).concat([temp], storageQuickSort(right));
-                        }
-                        else {
-                            return storageQuickSort(right).concat([temp], storageQuickSort(left));
-                        }
+                        return storageQuickSort(skuQuickSort(left)).concat([temp], storageQuickSort(right));
                     }
                 })
             }
