@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            border: 1px solid #000;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        table td {
+            border: 1px solid #000;
+        }
+
+        table tr:nth-of-type(odd) {
+            background-color: #5ff;
+        }
+
+        table tr:nth-of-type(even) {
+            background-color: #ffaaff;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>台灣縣市郵遞區號資訊列表</h1>
+    <button>Load ZipCode</button>
+    <table>
+        <tbody></tbody>
+    </table>
+    <template id="templateRow">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </template>
+    <script src="../Modules/MyHelper.js"></script>
+    <script>
+        var tbody = $g('tbody');
+        var btn = $g('button');
+        let isClick = true;
+        window.onload = function () {
+            let xhr = new XMLHttpRequest;
+            xhr.onload = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    zipcodeArray = JSON.parse(this.responseText);
+
+                    // let ZipCode = [];
+
+                    // zipcodeArray.forEach((item, index) => {
+
+                    //     item.AreaList.forEach((itemArea, indexArea) => {
+                    //         ZipCode.push({ City: item.CityName, Districts: [{ District: itemArea.AreaName, ZipCode: itemArea.ZipCode }] });
+                    //     })
+                    // });
+
+                    btn.addEventListener('click', () => {
+                        if (isClick) {
+                            zipcodeArray.forEach((item, index) => {
+                                addTbody(item);
+                            })
+                            isClick = false;
+                        }
+                        else {
+                            tbody.textContent = '';
+                            isClick = true;
+                        }
+                    })
+
+                }
+                else {
+                    msg.textContent = '發生錯誤, HTTP response代碼 :' + xhr.status;
+                }
+
+            }
+            xhr.open("GET", "https://raw.githubusercontent.com/donma/TaiwanAddressCityAreaRoadChineseEnglishJSON/master/AllData.json");
+            xhr.send();
+        }
+
+        function addTbody(Area) {
+
+            Area.AreaList.forEach((item, index) => {
+
+                let templateRow = $g('#templateRow');
+                let cloneContent = templateRow.content.cloneNode(true);
+                let tds = cloneContent.querySelectorAll('td');
+
+                tds[0].textContent = Area.CityName;
+                tds[1].textContent = item.AreaName;
+                tds[2].textContent = item.ZipCode;
+                tbody.appendChild(cloneContent);
+            })
+
+        }
+    </script>
+</body>
+
+</html>
