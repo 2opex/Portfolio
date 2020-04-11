@@ -36,18 +36,18 @@
             let xhr = new XMLHttpRequest();
             xhr.onload = function () {
                 iPad = JSON.parse(this.responseText);
-                addThead(iPad.products[0]);
-                addTbody(iPad.products);
+                addThead(iPad[0]);
+                addTbody(iPad);
                 var isSkuClick = true;
                 var skuClick = document.querySelector('th');
                 skuClick.addEventListener('click', () => {
                     tbody.innerHTML = null;
                     if (isSkuClick) {
-                        addTbody(skuQuickSort(iPad.products));
+                        addTbody(skuQuickSort(iPad));
                         isSkuClick = false;
                     }
                     else {
-                        addTbody(skuQuickSort(iPad.products).reverse());
+                        addTbody(skuQuickSort(iPad).reverse());
                         isSkuClick = true;
                     }
                     function skuQuickSort(arr) {
@@ -74,11 +74,11 @@
                 priceClick.addEventListener('click', () => {
                     tbody.innerHTML = null;
                     if (isPriceClick) {
-                        addTbody(priceQuickSort(iPad.products));
+                        addTbody(priceQuickSort(iPad));
                         isPriceClick = false;
                     }
                     else {
-                        addTbody(priceQuickSort(iPad.products).reverse());
+                        addTbody(priceQuickSort(iPad).reverse());
                         isPriceClick = true;
                     }
                     function priceQuickSort(arr) {
@@ -106,11 +106,11 @@
                 storageClick.addEventListener('click', () => {
                     tbody.innerHTML = null;
                     if (isStorageClick) {
-                        addTbody(storageQuickSort(iPad.products));
+                        addTbody(storageQuickSort(iPad));
                         isStorageClick = false;
                     }
                     else {
-                        addTbody(storageQuickSort(iPad.products).reverse());
+                        addTbody(storageQuickSort(iPad).reverse());
                         isStorageClick = true;
                     }
                     function storageQuickSort(arr) {
@@ -132,7 +132,7 @@
                     }
                 })
             }
-            xhr.open('GET', 'https://bs-frontend.azurewebsites.net/api/Apple/IPad');
+            xhr.open('GET', 'https://raw.githubusercontent.com/2opex/Portfolio/master/JS/Apple/ipad.json');
             xhr.send();
         }
 
