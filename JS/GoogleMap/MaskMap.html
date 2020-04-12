@@ -30,6 +30,7 @@
 
 <body>
     <div id="map"></div>
+    <script src="/JS/GoogleMap/markerclusterer.js"></script>
     <script>
         var map, infoWindow;
         function initMap() {
@@ -56,7 +57,7 @@
                 });
                 console.log(markersArray);
                 var markerCluster = new MarkerClusterer(map, markersArray,
-                    { imagePath: 'http://127.0.0.1:5500/ImagePath/ImagePath' });
+                    { imagePath: 'images/m' });
             })
 
         }
@@ -112,7 +113,6 @@
             });
         }
     </script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ-dWejpVJyHInXW-CjBip3MfseI6Xo_w&callback=initMap"
         async defer></script>
 </body>
