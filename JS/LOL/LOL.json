@@ -133,7 +133,7 @@
         },
         {
             "id": "blt78dcc651d55801e4",
-            "name": "AurelionSol",
+            "name": "Aurelion Sol",
             "link": {
                 "url": "/champions/aurelion-sol/",
                 "internal": true
@@ -264,7 +264,7 @@
         },
         {
             "id": "blt9b83a4d51e734afd",
-            "name": "ChoGath",
+            "name": "Cho`Gath",
             "link": {
                 "url": "/champions/cho-gath/",
                 "internal": true
@@ -322,21 +322,6 @@
             ]
         },
         {
-            "id": "blte04bcd16ecb4b5f7",
-            "name": "Dr. Mundo",
-            "link": {
-                "url": "/champions/dr-mundo/",
-                "internal": true
-            },
-            "difficulty": 5,
-            "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
-            "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte88a3d7e9e408904/5db05fbce9effa6ba5295f99/RiotX_ChampionList_drmundo.jpg",
-            "roles": [
-                "Fighter",
-                "Tank"
-            ]
-        },
-        {
             "id": "blt48716e72346dabdf",
             "name": "Draven",
             "link": {
@@ -348,6 +333,21 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0be728e4cbb8f2a/5db05fbc89fb926b491ed80b/RiotX_ChampionList_draven.jpg",
             "roles": [
                 "Marksman"
+            ]
+        },
+        {
+            "id": "blte04bcd16ecb4b5f7",
+            "name": "DrMundo",
+            "link": {
+                "url": "/champions/dr-mundo/",
+                "internal": true
+            },
+            "difficulty": 5,
+            "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+            "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte88a3d7e9e408904/5db05fbce9effa6ba5295f99/RiotX_ChampionList_drmundo.jpg",
+            "roles": [
+                "Fighter",
+                "Tank"
             ]
         },
         {
@@ -709,7 +709,7 @@
         },
         {
             "id": "blt68de85a3956f642f",
-            "name": "Kai'Sa",
+            "name": "Kaisa",
             "link": {
                 "url": "/champions/kai-sa/",
                 "internal": true
@@ -899,7 +899,7 @@
         },
         {
             "id": "bltff3d0ce8024fd014",
-            "name": "LeBlanc",
+            "name": "Leblanc",
             "link": {
                 "url": "/champions/leblanc/",
                 "internal": true
@@ -1072,6 +1072,21 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf36fa7fd7ecb59fb/5db05fe89481396d6bdd01b8/RiotX_ChampionList_missfortune.jpg",
             "roles": [
                 "Marksman"
+            ]
+        },
+        {
+            "id": "blt42e71585b83505e4",
+            "name": "Wukong",
+            "link": {
+                "url": "/champions/wukong/",
+                "internal": true
+            },
+            "difficulty": 3,
+            "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
+            "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf44673e1a16af30/5db05fe87d28b76cfe439807/RiotX_ChampionList_monkeyking.jpg",
+            "roles": [
+                "Fighter",
+                "Tank"
             ]
         },
         {
@@ -1986,21 +2001,6 @@
             "difficulty": 3,
             "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08a92f3897cfc8f5/5db0601ddc674266df3d5d5c/RiotX_ChampionList_warwick.jpg",
-            "roles": [
-                "Fighter",
-                "Tank"
-            ]
-        },
-        {
-            "id": "blt42e71585b83505e4",
-            "name": "Wukong",
-            "link": {
-                "url": "/champions/wukong/",
-                "internal": true
-            },
-            "difficulty": 3,
-            "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
-            "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaf44673e1a16af30/5db05fe87d28b76cfe439807/RiotX_ChampionList_monkeyking.jpg",
             "roles": [
                 "Fighter",
                 "Tank"
