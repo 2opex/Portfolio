@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #map {
+            height: 100%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        var map, infoWindow;
+        function initMap() {
+            fetch('https://maskmap.azurewebsites.net/api/mask/getmaskstock')
+                .then((response) => response.json())
+                .then((data) => {
+                    getCurrentPosition(data);
+                })
+                .catch((error) => {
+                    // Handle the error
+                });
+
+        }
+        var getCurrentPosition = function (data) {
+            navigator.geolocation.getCurrentPosition((position) => {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+                    zoom: 16
+                })
+                infoWindow = new google.maps.InfoWindow;
+                var markersArray = [];
+                data.features.forEach((item, index) => {
+                    markersArray.push(setMarkers(item));
+                });
+                console.log(markersArray);
+                var markerCluster = new MarkerClusterer(map, markersArray,
+                    { imagePath: 'http://127.0.0.1:5500/ImagePath/ImagePath' });
+            })
+
+        }
+        function setMarkers(item) {
+            if ((item.properties.masksLeft && item.properties.childMasksLeft) != 0) {
+                var marker = setDetailMarker(item);
+                marker.icon = 'medical-mask.png';
+                setInfoCard(item, marker);
+                // marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+            else if (item.properties.masksLeft != 0 && item.properties.childMasksLeft == 0) {
+                var marker = setDetailMarker(item);
+                marker.icon = 'medical-mask.png';
+                setInfoCard(item, marker);
+            }
+            else if (item.properties.masksLeft == 0 && item.properties.childMasksLeft != 0) {
+                var marker = setDetailMarker(item);
+                marker.icon = 'boy.png';
+                setInfoCard(item, marker);
+            }
+            else {
+                var marker = setDetailMarker(item);
+                marker.icon = 'forbidden.png';
+                setInfoCard(item, marker);
+            }
+            return marker;
+        }
+
+        function setDetailMarker(item) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(item.geometry.coordinates[1], item.geometry.coordinates[0]),
+                icon: '',
+                title: item.properties.name,
+                map: map
+            })
+            return marker;
+        }
+
+        function setInfoCard(item, marker) {
+            var contentString = '<div id="content">' +
+                `<h1 id="firstHeading" class="firstHeading">${item.properties.name}</h1>` +
+                '<div id="bodyContent">' +
+                `<ul id="container"><li>口罩數量 : ${item.properties.masksLeft}</li>` +
+                `<li>小孩口罩數量 : ${item.properties.childMasksLeft}</li></ul>` +
+                '</div>' +
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ-dWejpVJyHInXW-CjBip3MfseI6Xo_w&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
