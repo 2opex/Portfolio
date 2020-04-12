@@ -13,29 +13,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 537.8,
-                "hpperlevel": 85.0,
-                "mp": 105.6,
-                "mpperlevel": 45.0,
-                "movespeed": 345.0,
-                "armor": 24.384,
-                "armorperlevel": 3.8,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 150.0,
-                "hpregen": 6.59,
-                "hpregenperlevel": 0.5,
-                "mpregen": 0.0,
-                "mpregenperlevel": 0.0,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 60.376,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": -0.04,
-                "attackspeedperlevel": 3.0
-            }
+            ]
         },
         {
             "id": "blt390ceac1e3d19fbb",
@@ -50,29 +28,7 @@
             "roles": [
                 "Mage",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 514.4,
-                "hpperlevel": 80.0,
-                "mp": 334.0,
-                "mpperlevel": 50.0,
-                "movespeed": 330.0,
-                "armor": 20.88,
-                "armorperlevel": 3.5,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 6.505,
-                "hpregenperlevel": 0.6,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.04,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": -0.065,
-                "attackspeedperlevel": 2.0
-            }
+            ]
         },
         {
             "id": "blt22cd16bdce160fe1",
@@ -86,29 +42,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt80ff58fe809777ff/5db05fa8adc8656c7d24e7d6/RiotX_ChampionList_akali.jpg",
             "roles": [
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 587.8,
-                "hpperlevel": 85.0,
-                "mp": 200.0,
-                "mpperlevel": 0.0,
-                "movespeed": 350.0,
-                "armor": 26.38,
-                "armorperlevel": 3.5,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.34,
-                "hpregenperlevel": 0.65,
-                "mpregen": 50.0,
-                "mpregenperlevel": 0.0,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 58.376,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": -0.1,
-                "attackspeedperlevel": 3.1
-            }
+            ]
         },
         {
             "id": "bltc7f92581bbc27095",
@@ -123,29 +57,7 @@
             "roles": [
                 "Tank",
                 "Support"
-            ],
-            "stats": {
-                "hp": 613.36,
-                "hpperlevel": 106.0,
-                "mp": 278.84,
-                "mpperlevel": 38.0,
-                "movespeed": 330.0,
-                "armor": 24.38,
-                "armorperlevel": 3.5,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.675,
-                "hpregenperlevel": 0.85,
-                "mpregen": 8.5,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 61.1116,
-                "attackdamageperlevel": 3.62,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 2.125
-            }
+            ]
         },
         {
             "id": "blt6c55bf5df3dcb42c",
@@ -160,29 +72,7 @@
             "roles": [
                 "Tank",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 613.12,
-                "hpperlevel": 84.0,
-                "mp": 287.2,
-                "mpperlevel": 40.0,
-                "movespeed": 335.0,
-                "armor": 23.544,
-                "armorperlevel": 3.8,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.875,
-                "hpregenperlevel": 0.85,
-                "mpregen": 7.38,
-                "mpregenperlevel": 0.525,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.384,
-                "attackdamageperlevel": 3.8,
-                "attackspeedoffset": -0.02,
-                "attackspeedperlevel": 2.18
-            }
+            ]
         },
         {
             "id": "blt69702f001da6fa66",
@@ -197,29 +87,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 467.6,
-                "hpperlevel": 70.0,
-                "mp": 396.04,
-                "mpperlevel": 50.0,
-                "movespeed": 325.0,
-                "armor": 21.22,
-                "armorperlevel": 4.0,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 600.0,
-                "hpregen": 5.57,
-                "hpregenperlevel": 0.55,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 51.376,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.68
-            }
+            ]
         },
         {
             "id": "bltdf4ef9a617bc7424",
@@ -233,29 +101,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt28c708665427aef6/5db05fa89481396d6bdd01a6/RiotX_ChampionList_annie.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 511.68,
-                "hpperlevel": 76.0,
-                "mp": 334.0,
-                "mpperlevel": 50.0,
-                "movespeed": 335.0,
-                "armor": 19.22,
-                "armorperlevel": 4.0,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 575.0,
-                "hpregen": 5.42,
-                "hpregenperlevel": 0.55,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 50.41,
-                "attackdamageperlevel": 2.625,
-                "attackspeedoffset": 0.08,
-                "attackspeedperlevel": 1.36
-            }
+            ]
         },
         {
             "id": "blt234c097cdcadb697",
@@ -268,29 +114,7 @@
             "splashImageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 537.72,
-                "hpperlevel": 79.0,
-                "mp": 300.0,
-                "mpperlevel": 32.0,
-                "movespeed": 321.0,
-                "armor": 21.222,
-                "armorperlevel": 4.4,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 610.0,
-                "hpregen": 5.22,
-                "hpregenperlevel": 0.35,
-                "mpregen": 7.97,
-                "mpregenperlevel": 0.4,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 60.508,
-                "attackdamageperlevel": 2.26,
-                "attackspeedoffset": -0.05,
-                "attackspeedperlevel": 3.33
-            }
+            ]
         },
         {
             "id": "blt91a4bd9d3499c588",
@@ -305,29 +129,7 @@
             "roles": [
                 "Marksman",
                 "Support"
-            ],
-            "stats": {
-                "hp": 527.72,
-                "hpperlevel": 79.0,
-                "mp": 280.0,
-                "mpperlevel": 32.0,
-                "movespeed": 325.0,
-                "armor": 21.212,
-                "armorperlevel": 3.4,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 600.0,
-                "hpregen": 5.42,
-                "hpregenperlevel": 0.55,
-                "mpregen": 6.97,
-                "mpregenperlevel": 0.4,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 56.508,
-                "attackdamageperlevel": 2.26,
-                "attackspeedoffset": -0.05,
-                "attackspeedperlevel": 3.33
-            }
+            ]
         },
         {
             "id": "blt78dcc651d55801e4",
@@ -341,29 +143,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt5dd3569fc67d6664/5db05fa8bd24496c390ae4d8/RiotX_ChampionList_aurelionsol.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 550.0,
-                "hpperlevel": 80.0,
-                "mp": 350.0,
-                "mpperlevel": 50.0,
-                "movespeed": 325.0,
-                "armor": 19.0,
-                "armorperlevel": 3.6,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 6.5,
-                "hpregenperlevel": 0.6,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 57.0,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.36
-            }
+            ]
         },
         {
             "id": "blt48be9ecd8f1b761a",
@@ -378,29 +158,7 @@
             "roles": [
                 "Mage",
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 524.4,
-                "hpperlevel": 80.0,
-                "mp": 350.56,
-                "mpperlevel": 42.0,
-                "movespeed": 325.0,
-                "armor": 19.04,
-                "armorperlevel": 3.0,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 525.0,
-                "hpregen": 6.92,
-                "hpregenperlevel": 0.55,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 52.0,
-                "attackdamageperlevel": 2.8,
-                "attackspeedoffset": -0.02,
-                "attackspeedperlevel": 1.5
-            }
+            ]
         },
         {
             "id": "bltf7bf978b17d518df",
@@ -415,29 +173,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 535.0,
-                "hpperlevel": 89.0,
-                "mp": 350.0,
-                "mpperlevel": 50.0,
-                "movespeed": 330.0,
-                "armor": 25.0,
-                "armorperlevel": 4.0,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 500.0,
-                "hpregen": 5.4,
-                "hpregenperlevel": 0.55,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.45,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 52.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 2.0
-            }
+            ]
         },
         {
             "id": "blt968877b6a7b3420f",
@@ -452,29 +188,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 582.6,
-                "hpperlevel": 95.0,
-                "mp": 267.2,
-                "mpperlevel": 40.0,
-                "movespeed": 325.0,
-                "armor": 24.38,
-                "armorperlevel": 4.0,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.51,
-                "hpregenperlevel": 0.75,
-                "mpregen": 8.5,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 61.54,
-                "attackdamageperlevel": 3.5,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.13
-            }
+            ]
         },
         {
             "id": "blt2c6256dd53fe8f1e",
@@ -488,29 +202,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8ca2e9bba653dda/5db05fb2dc674266df3d5d30/RiotX_ChampionList_brand.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 507.68,
-                "hpperlevel": 76.0,
-                "mp": 375.6,
-                "mpperlevel": 42.0,
-                "movespeed": 340.0,
-                "armor": 21.88,
-                "armorperlevel": 3.5,
-                "spellblock": 30.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 5.42,
-                "hpregenperlevel": 0.55,
-                "mpregen": 8.005,
-                "mpregenperlevel": 0.6,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 57.04,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.36
-            }
+            ]
         },
         {
             "id": "blt482b5f5243ea623f",
@@ -525,29 +217,7 @@
             "roles": [
                 "Support",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 576.16,
-                "hpperlevel": 87.0,
-                "mp": 310.6,
-                "mpperlevel": 45.0,
-                "movespeed": 335.0,
-                "armor": 26.72,
-                "armorperlevel": 4.5,
-                "spellblock": 32.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.18,
-                "hpregenperlevel": 1.0,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.376,
-                "attackdamageperlevel": 3.2,
-                "attackspeedoffset": -0.03,
-                "attackspeedperlevel": 3.5
-            }
+            ]
         },
         {
             "id": "blta47f3869e876b7ae",
@@ -561,29 +231,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt014f4b6fc9bacd10/5db05fb00b39e86c2f83dbff/RiotX_ChampionList_caitlyn.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 524.4,
-                "hpperlevel": 80.0,
-                "mp": 313.7,
-                "mpperlevel": 35.0,
-                "movespeed": 325.0,
-                "armor": 22.88,
-                "armorperlevel": 4.5,
-                "spellblock": 31.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 650.0,
-                "hpregen": 5.67,
-                "hpregenperlevel": 0.55,
-                "mpregen": 7.4,
-                "mpregenperlevel": 0.55,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.66,
-                "attackdamageperlevel": 2.18,
-                "attackspeedoffset": 0.1,
-                "attackspeedperlevel": 4.0
-            }
+            ]
         },
         {
             "id": "blt65bea5c9a295f1cc",
@@ -598,29 +246,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 524.4,
-                "hpperlevel": 80.0,
-                "mp": 313.7,
-                "mpperlevel": 35.0,
-                "movespeed": 325.0,
-                "armor": 22.88,
-                "armorperlevel": 4.5,
-                "spellblock": 31.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 650.0,
-                "hpregen": 5.67,
-                "hpregenperlevel": 0.55,
-                "mpregen": 7.4,
-                "mpregenperlevel": 0.55,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.66,
-                "attackdamageperlevel": 2.18,
-                "attackspeedoffset": 0.1,
-                "attackspeedperlevel": 4.0
-            }
+            ]
         },
         {
             "id": "blt3b10937b6abb4185",
@@ -634,29 +260,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte189be8189da97ea/5db05fb1bd24496c390ae4de/RiotX_ChampionList_cassiopeia.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 525.0,
-                "hpperlevel": 75.0,
-                "mp": 375.0,
-                "mpperlevel": 60.0,
-                "movespeed": 328.0,
-                "armor": 25.0,
-                "armorperlevel": 4.5,
-                "spellblock": 31.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 5.5,
-                "hpregenperlevel": 0.5,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": -0.034,
-                "attackspeedperlevel": 1.5
-            }
+            ]
         },
         {
             "id": "blt9b83a4d51e734afd",
@@ -671,29 +275,7 @@
             "roles": [
                 "Tank",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 574.4,
-                "hpperlevel": 80.0,
-                "mp": 272.2,
-                "mpperlevel": 40.0,
-                "movespeed": 345.0,
-                "armor": 28.88,
-                "armorperlevel": 4.5,
-                "spellblock": 31.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 8.925,
-                "hpregenperlevel": 0.85,
-                "mpregen": 7.205,
-                "mpregenperlevel": 0.45,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 61.156,
-                "attackdamageperlevel": 4.2,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.44
-            }
+            ]
         },
         {
             "id": "blt9aabf47b194072bb",
@@ -707,29 +289,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltdd918c4d0a86347a/5db05fb1df78486c826dccee/RiotX_ChampionList_corki.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 512.76,
-                "hpperlevel": 82.0,
-                "mp": 350.16,
-                "mpperlevel": 34.0,
-                "movespeed": 325.0,
-                "armor": 23.38,
-                "armorperlevel": 4.5,
-                "spellblock": 31.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 5.42,
-                "hpregenperlevel": 0.55,
-                "mpregen": 7.42,
-                "mpregenperlevel": 0.55,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 56.0,
-                "attackdamageperlevel": 3.5,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 2.3
-            }
+            ]
         },
         {
             "id": "bltafb356a880c37379",
@@ -744,29 +304,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 582.24,
-                "hpperlevel": 100.0,
-                "mp": 263.0,
-                "mpperlevel": 37.5,
-                "movespeed": 340.0,
-                "armor": 30.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 175.0,
-                "hpregen": 9.845,
-                "hpregenperlevel": 0.95,
-                "mpregen": 6.585,
-                "mpregenperlevel": 0.35,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 56.0,
-                "attackdamageperlevel": 5.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 1.0
-            }
+            ]
         },
         {
             "id": "bltec3fbc1d45649620",
@@ -781,29 +319,7 @@
             "roles": [
                 "Fighter",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 589.2,
-                "hpperlevel": 90.0,
-                "mp": 297.2,
-                "mpperlevel": 40.0,
-                "movespeed": 345.0,
-                "armor": 26.048,
-                "armorperlevel": 4.6,
-                "spellblock": 31.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 150.0,
-                "hpregen": 7.425,
-                "hpregenperlevel": 0.85,
-                "mpregen": 6.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 53.04,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 2.25
-            }
+            ]
         },
         {
             "id": "blte04bcd16ecb4b5f7",
@@ -818,29 +334,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 557.76,
-                "hpperlevel": 82.0,
-                "mp": 360.56,
-                "mpperlevel": 39.0,
-                "movespeed": 330.0,
-                "armor": 25.544,
-                "armorperlevel": 4.3,
-                "spellblock": 31.0,
-                "spellblockperlevel": 0.0,
-                "attackrange": 550.0,
-                "hpregen": 6.175,
-                "hpregenperlevel": 0.7,
-                "mpregen": 8.04,
-                "mpregenperlevel": 0.65,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.8,
-                "attackdamageperlevel": 2.91,
-                "attackspeedoffset": -0.08,
-                "attackspeedperlevel": 2.7
-            }
+            ]
         },
         {
             "id": "blt48716e72346dabdf",
@@ -854,29 +348,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0be728e4cbb8f2a/5db05fbc89fb926b491ed80b/RiotX_ChampionList_draven.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 582.52,
-                "hpperlevel": 89.0,
-                "mp": 0.0,
-                "mpperlevel": 0.0,
-                "movespeed": 345.0,
-                "armor": 26.88,
-                "armorperlevel": 4.5,
-                "spellblock": 31.1,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 7.76,
-                "hpregenperlevel": 0.75,
-                "mpregen": 0.0,
-                "mpregenperlevel": 0.0,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 61.27,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 2.8
-            }
+            ]
         },
         {
             "id": "blta8b5a51e31f89309",
@@ -891,29 +363,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt29b284b0b6e95d55",
@@ -928,29 +378,7 @@
             "roles": [
                 "Mage",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfdc8a0a29298a7d8",
@@ -965,29 +393,7 @@
             "roles": [
                 "Assassin",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7039d8c8a3936405",
@@ -1002,29 +408,7 @@
             "roles": [
                 "Marksman",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt5424d6ac7f21b20d",
@@ -1039,29 +423,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt83657606ef2c0f60",
@@ -1076,29 +438,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6bd72f93827a0017",
@@ -1113,29 +453,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blted3224a94938b2a0",
@@ -1150,29 +468,7 @@
             "roles": [
                 "Tank",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8c737368d5e2b7e9",
@@ -1186,29 +482,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltfdff3781ccfb2a5c/5db05fc689fb926b491ed811/RiotX_ChampionList_gangplank.jpg",
             "roles": [
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt84f5bac8ab7a2eed",
@@ -1223,29 +497,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltdfd73b52fc8d82d9",
@@ -1260,29 +512,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt3edde42e2419d085",
@@ -1297,29 +527,7 @@
             "roles": [
                 "Fighter",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6acf17b31e13b4a5",
@@ -1333,29 +541,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd8935c6b4025d320/5db05fc4bd24496c390ae4e4/RiotX_ChampionList_graves.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt4ec0721b8e8350a8",
@@ -1370,29 +556,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7ce52f388c980685",
@@ -1407,29 +571,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt26872ebc13eb55bb",
@@ -1444,29 +586,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt52449a9ba39048d7",
@@ -1481,29 +601,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6858a44104eb115c",
@@ -1518,29 +616,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt90c1819d1df54257",
@@ -1555,29 +631,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltac67ce27c0fb0f51",
@@ -1592,29 +646,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt3ca1a1b534e73b51",
@@ -1629,29 +661,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6198e9b751955815",
@@ -1666,29 +676,7 @@
             "roles": [
                 "Fighter",
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltefff5c6cef7cc0e1",
@@ -1703,29 +691,7 @@
             "roles": [
                 "Marksman",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt4cf0d312633a2398",
@@ -1739,29 +705,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta2cba784d9fad4b8/5db05fce89fb926b491ed817/RiotX_ChampionList_jinx.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt68de85a3956f642f",
@@ -1775,29 +719,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte38dc660dfe79204/5db05fce2dc72966da74670c/RiotX_ChampionList_kaisa.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf1837293b1ce823b",
@@ -1811,29 +733,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltb7f0196921c74e8c/5db05fcee9d7526ab429e52c/RiotX_ChampionList_kalista.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt07d9a2b382e4179f",
@@ -1848,29 +748,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf49003b8c3d4ba24",
@@ -1884,29 +762,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt69b8fad9d1e78514/5db05fd7df78486c826dcd0c/RiotX_ChampionList_karthus.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt0b0f0ff6957c311b",
@@ -1921,29 +777,7 @@
             "roles": [
                 "Assassin",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt5e9384a410c7f680",
@@ -1958,29 +792,7 @@
             "roles": [
                 "Assassin",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt641043b8f693a81c",
@@ -1995,29 +807,7 @@
             "roles": [
                 "Fighter",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltd0e163252f721a5f",
@@ -2032,29 +822,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt676bcfe3c8cda8bb",
@@ -2069,29 +837,7 @@
             "roles": [
                 "Mage",
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6bfc9f406239dc14",
@@ -2105,29 +851,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt363d7d62846ffc87/5db05fd6e9effa6ba5295f9f/RiotX_ChampionList_khazix.jpg",
             "roles": [
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltc6d58a7e4b4b2bb3",
@@ -2141,29 +865,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc0f0007660b7a07b/5db05fd689fb926b491ed823/RiotX_ChampionList_kindred.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8a18b914c7fc82c8",
@@ -2178,29 +880,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt9ef7450246805820",
@@ -2215,29 +895,7 @@
             "roles": [
                 "Marksman",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltff3d0ce8024fd014",
@@ -2252,29 +910,7 @@
             "roles": [
                 "Assassin",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7cb09340bd06da79",
@@ -2289,29 +925,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt08d9b46eb1a6a570",
@@ -2326,29 +940,7 @@
             "roles": [
                 "Tank",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltb68dce205c2ec1e7",
@@ -2362,29 +954,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt08f869e897566c5b/5db05fdf7d28b76cfe439801/RiotX_ChampionList_lissandra.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltbad480846f700873",
@@ -2398,29 +968,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3db0d62352b0b4f1/5db05fdf6e8b0c6d038c5cb4/RiotX_ChampionList_lucian.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt3fdbe723fedc260a",
@@ -2435,29 +983,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt9a318e2b6a9ce327",
@@ -2472,29 +998,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6154ae149996bb61",
@@ -2509,29 +1013,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blte29f11531852e31c",
@@ -2546,29 +1028,7 @@
             "roles": [
                 "Mage",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 4.0,
-                "spellblock": 31.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt755aceceac46e007",
@@ -2583,29 +1043,7 @@
             "roles": [
                 "Tank",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt762d0a9b9a076ba1",
@@ -2620,29 +1058,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfc018f00749818ae",
@@ -2656,29 +1072,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltf36fa7fd7ecb59fb/5db05fe89481396d6bdd01b8/RiotX_ChampionList_missfortune.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt86cf6a77397e22c0",
@@ -2692,29 +1086,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt2392a60ff2a2d726/5db05fe8242f426df132f96d/RiotX_ChampionList_mordekaiser.jpg",
             "roles": [
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltc31e64f71cbd6999",
@@ -2729,29 +1101,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt130d95880f49546a",
@@ -2766,29 +1116,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltd05374821113df1e",
@@ -2803,29 +1131,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt1df31df3f72e553e",
@@ -2840,29 +1146,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt3072aa55b695f0fd",
@@ -2877,29 +1161,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt35a54f7bf6e9d6ac",
@@ -2914,29 +1176,7 @@
             "roles": [
                 "Assassin",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7988a6e3bc0a8f3b",
@@ -2951,29 +1191,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltbdcc6d95c28dcf53",
@@ -2988,29 +1206,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt186304fe9bd5a993",
@@ -3025,29 +1221,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt2c563a8e5de3b7a4",
@@ -3062,29 +1236,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt93847cfdeec25b05",
@@ -3099,29 +1251,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt5dda77b3e40f23e6",
@@ -3136,29 +1266,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltd6317e901f779b78",
@@ -3173,29 +1281,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltdf1a19c844c3b2a2",
@@ -3210,29 +1296,7 @@
             "roles": [
                 "Support",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltbbe3d6122cf1906b",
@@ -3247,29 +1311,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blta6c4f93fb19cff02",
@@ -3284,29 +1326,7 @@
             "roles": [
                 "Marksman",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf2e44b6e7ffd8aea",
@@ -3320,29 +1340,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbe844b30961ccb7c/5db05ffb2140ec675d68f4ad/RiotX_ChampionList_rakan.jpg",
             "roles": [
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt86eee0e08968bf1c",
@@ -3357,29 +1355,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6cc86a1f51f2804c",
@@ -3393,29 +1369,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt4affff3ef114e99b/5db05ffb347d1c6baa57be43/RiotX_ChampionList_reksai.jpg",
             "roles": [
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7139a46d15ace7d2",
@@ -3430,29 +1384,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf21337634841290c",
@@ -3467,29 +1399,7 @@
             "roles": [
                 "Assassin",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6c65410f198c90ce",
@@ -3504,29 +1414,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt35fe910fbb34f0dc",
@@ -3541,29 +1429,7 @@
             "roles": [
                 "Fighter",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf8080ca3c80cc4e6",
@@ -3578,29 +1444,7 @@
             "roles": [
                 "Mage",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt7d215dded21936e7",
@@ -3615,29 +1459,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltaae8931d79c16e30",
@@ -3652,29 +1474,7 @@
             "roles": [
                 "Marksman",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltb331f64ef54558db",
@@ -3688,29 +1488,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltb31ce39cc75c4330",
@@ -3724,29 +1502,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltc8b1d1ba926d01cc/5db060036e8b0c6d038c5cba/RiotX_ChampionList_shaco.jpg",
             "roles": [
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt77a1e289bb574d9c",
@@ -3760,29 +1516,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltd142d174831b78e9/5db06004242f426df132f97f/RiotX_ChampionList_shen.jpg",
             "roles": [
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltec495aa2f2002894",
@@ -3797,29 +1531,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt6c77783e48311e4d",
@@ -3834,29 +1546,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blta720bf92fcc8aef3",
@@ -3871,29 +1561,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfb8d17510e9429c4",
@@ -3907,29 +1575,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbe8ea8bfd98ec1f3/5db06002a6470d6ab91ce5ac/RiotX_ChampionList_sivir.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt91dfd3bd01c369cc",
@@ -3944,29 +1590,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt9ec13627d7aafff9",
@@ -3981,29 +1605,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blte23115c83e7b4420",
@@ -4018,29 +1620,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt978b690739f0e840",
@@ -4055,29 +1635,7 @@
             "roles": [
                 "Mage",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blta646eeabf672128b",
@@ -4092,29 +1650,7 @@
             "roles": [
                 "Mage",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blta1b9779bf29e4f86",
@@ -4129,29 +1665,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt22be9b4932ddc826",
@@ -4166,29 +1680,7 @@
             "roles": [
                 "Support",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfe1fd9b3b3798601",
@@ -4203,29 +1695,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blted6b997ce04023b2",
@@ -4239,29 +1709,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt20a737f99ebcd027/5db0600c89fb926b491ed829/RiotX_ChampionList_talon.jpg",
             "roles": [
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8585c84a653f9512",
@@ -4276,29 +1724,7 @@
             "roles": [
                 "Support",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfd60501a3c23a26e",
@@ -4313,29 +1739,7 @@
             "roles": [
                 "Marksman",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltb26f2b3ff557483d",
@@ -4350,29 +1754,7 @@
             "roles": [
                 "Support",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8ffd0cf8a84b6200",
@@ -4387,29 +1769,7 @@
             "roles": [
                 "Marksman",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8e8c9c2f3b5690e9",
@@ -4424,29 +1784,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltcdb989e777e5c587",
@@ -4461,29 +1799,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt334a6d1afe167997",
@@ -4497,29 +1813,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltaebcdb8b21d440a7/5db0600ce9effa6ba5295fb3/RiotX_ChampionList_twistedfate.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt3a3541071a891ad5",
@@ -4534,29 +1828,7 @@
             "roles": [
                 "Marksman",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt913eb9c8c11c3c43",
@@ -4571,29 +1843,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt4ccf12d23ae1f6a4",
@@ -4608,29 +1858,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt138eefde203cbf40",
@@ -4645,29 +1873,7 @@
             "roles": [
                 "Marksman",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8cb1161c2dd2ec86",
@@ -4682,29 +1888,7 @@
             "roles": [
                 "Marksman",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltfc839caabf4aa649",
@@ -4718,29 +1902,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltda2b568b0c3e5847/5db06014e9effa6ba5295fb9/RiotX_ChampionList_veigar.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt63c35ae9a620fe42",
@@ -4754,29 +1916,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt825d0c333f6e74ae/5db060142140ec675d68f4bb/RiotX_ChampionList_velkoz.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltc1a52ad9b4deea23",
@@ -4791,29 +1931,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt834b8ceecf46078f",
@@ -4827,29 +1945,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt6e54b3de49b7bbf3/5db06015df78486c826dcd1e/RiotX_ChampionList_viktor.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt725a490a96e07e8f",
@@ -4863,29 +1959,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt39ab5027f6fa1b81/5db0601589fb926b491ed82f/RiotX_ChampionList_vladimir.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt021d5ca1e3155700",
@@ -4900,29 +1974,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt8b6ccf260a67f29c",
@@ -4937,29 +1989,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt42e71585b83505e4",
@@ -4974,29 +2004,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt39dacf76c9aaafe5",
@@ -5010,29 +2018,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0d029ccdb18a4299/5db0601ba6470d6ab91ce5be/RiotX_ChampionList_xayah.jpg",
             "roles": [
                 "Marksman"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt914af00c3d8563a8",
@@ -5046,29 +2032,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbda694c8890e94e5/5db0601ce9effa6ba5295fbf/RiotX_ChampionList_xeratth.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltffb4651ce506c647",
@@ -5083,29 +2047,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt2026c3b1893e4f80",
@@ -5120,29 +2062,7 @@
             "roles": [
                 "Fighter",
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt0a8a7d731ea97450",
@@ -5157,29 +2077,7 @@
             "roles": [
                 "Fighter",
                 "Tank"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt5452c763d8485484",
@@ -5194,29 +2092,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt406b01f82466cf4c",
@@ -5231,29 +2107,7 @@
             "roles": [
                 "Tank",
                 "Fighter"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltccdd59a505284661",
@@ -5267,29 +2121,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt402d6da485218720/5db0601de9effa6ba5295fc5/RiotX_ChampionList_zed.jpg",
             "roles": [
                 "Assassin"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltf33bff3057662b2a",
@@ -5303,29 +2135,7 @@
             "profileImageUrl": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0f8c12d54d8ecd28/5db0602289fb926b491ed835/RiotX_ChampionList_ziggs.jpg",
             "roles": [
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "bltcb9238c55d4c6ef7",
@@ -5340,29 +2150,7 @@
             "roles": [
                 "Support",
                 "Mage"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt259269040312e6bb",
@@ -5377,29 +2165,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         },
         {
             "id": "blt9f281d0f3252e8e8",
@@ -5414,29 +2180,7 @@
             "roles": [
                 "Mage",
                 "Support"
-            ],
-            "stats": {
-                "hp": 580.0,
-                "hpperlevel": 80.0,
-                "mp": 280.0,
-                "mpperlevel": 50.0,
-                "movespeed": 340.0,
-                "armor": 27.0,
-                "armorperlevel": 3.0,
-                "spellblock": 32.0,
-                "spellblockperlevel": 1.25,
-                "attackrange": 125.0,
-                "hpregen": 9.0,
-                "hpregenperlevel": 0.9,
-                "mpregen": 7.0,
-                "mpregenperlevel": 0.8,
-                "crit": 0.0,
-                "critperlevel": 0.0,
-                "attackdamage": 55.0,
-                "attackdamageperlevel": 3.0,
-                "attackspeedoffset": 0.0,
-                "attackspeedperlevel": 3.3
-            }
+            ]
         }
     ]
 }
