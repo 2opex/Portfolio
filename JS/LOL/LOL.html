@@ -153,7 +153,6 @@
             let p = cloneContent.querySelector('p');
             let a = cloneContent.querySelector('.txt>a');
             let card = cloneContent.getElementById('card');
-            let cardH5 = cloneContent.getElementById('exampleModalLongTitle');
             let exampleModalCenter = cloneContent.getElementById('exampleModalCenter');
             let modalBody = cloneContent.querySelector('.modal-body');
             if (hero.name == 'Sett' || hero.name == 'Aphelios') {
@@ -168,9 +167,8 @@
             p.textContent = `${hero.name}`;
             a.setAttribute('href', `${hero.splashImageUrl}`);
             card.setAttribute('data-target', `#${hero.id}`);
-            cardH5.textContent = `${hero.name}`;
-
             exampleModalCenter.setAttribute('id', `${hero.id}`);
+
             modalBody.innerHTML = `Roles : ${hero.roles}` + `<br>hp : ${hero.stats.hp}`;
             for (let item in hero.stats) {
                 modalBody.innerHTML += `<br>${item} : ${hero.stats[item]}`;
