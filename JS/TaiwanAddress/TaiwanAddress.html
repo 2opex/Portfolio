@@ -52,15 +52,6 @@
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     zipcodeArray = JSON.parse(this.responseText);
 
-                    // let ZipCode = [];
-
-                    // zipcodeArray.forEach((item, index) => {
-
-                    //     item.AreaList.forEach((itemArea, indexArea) => {
-                    //         ZipCode.push({ City: item.CityName, Districts: [{ District: itemArea.AreaName, ZipCode: itemArea.ZipCode }] });
-                    //     })
-                    // });
-
                     btn.addEventListener('click', () => {
                         if (isClick) {
                             zipcodeArray.forEach((item, index) => {

@@ -1,0 +1,196 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <script src="https://kit.fontawesome.com/4b2c9cbe81.js" crossorigin="anonymous"></script>
+    <style>
+        .col-xs-1-5,
+        .col-sm-1-5,
+        .col-md-1-5,
+        .col-lg-1-5 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        .col-xs-1-5 {
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+
+        @media (min-width: 768px) {
+            .col-sm-1-5 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .col-md-1-5 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .col-lg-1-5 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
+
+        #card {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .pic {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .txt {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0 15px;
+            color: #fff;
+            background-color: #000;
+            opacity: .9;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 0px;
+            font-style: italic;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .txt>a {
+            text-decoration: none;
+            color: #fff;
+            position: absolute;
+            right: 0;
+            bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+    <template id="templateCard">
+        <div class=" col-xs-12 col-sm-6 col-md-1-5 col-lg-1-5 " id="card" data-toggle="modal"
+            data-target="#exampleModalCenter">
+            <div class="pic">
+                <img class="d-block w-100" src="" alt="">
+            </div>
+            <div class="txt">
+                <p></p>
+                <a href=""><i class="fas fa-images"></i></a>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="../Modules/MyHelper.js"></script>
+    <script>
+        var container = $g('.container');
+        var row = $g('.row');
+        fetch('http://127.0.0.1:5501/JS/LOL/LOL.json')
+            .then((response) => response.json())
+            .then((data) => {
+                data.champions.forEach((item, index) => {
+                    addCard(item);
+                })
+            })
+            .catch((error) => {
+
+            })
+        function addCard(hero) {
+            let templateCard = $g('#templateCard');
+            let cloneContent = templateCard.content.cloneNode(true);
+            let pic = cloneContent.querySelector('.pic');
+            let img = cloneContent.querySelector('img');
+            let p = cloneContent.querySelector('p');
+            let a = cloneContent.querySelector('.txt>a');
+            let card = cloneContent.getElementById('card');
+            let exampleModalCenter = cloneContent.getElementById('exampleModalCenter');
+            let modalBody = cloneContent.querySelector('.modal-body');
+            if (hero.name == 'Sett' || hero.name == 'Aphelios') {
+                img.setAttribute('src', `${hero.splashImageUrl}`);
+                img.classList.remove('w-100');
+                img.style.width = '191.3%';
+                pic.style.overflow = 'hidden';
+            }
+            else {
+                img.setAttribute('src', `${hero.profileImageUrl}`)
+            }
+            p.textContent = `${hero.name}`;
+            a.setAttribute('href', `${hero.splashImageUrl}`);
+            card.setAttribute('data-target', `#${hero.id}`);
+            exampleModalCenter.setAttribute('id', `${hero.id}`);
+
+            modalBody.innerHTML = `Roles : ${hero.roles}` + `<br>hp : ${hero.stats.hp}`;
+            for (let item in hero.stats) {
+                modalBody.innerHTML += `<br>${item} : ${hero.stats[item]}`;
+            }
+            row.appendChild(cloneContent);
+
+        }
+
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
