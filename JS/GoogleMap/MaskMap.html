@@ -32,9 +32,9 @@
     <div id="map"></div>
     <script src="/JS/GoogleMap/markerclusterer.js"></script>
     <script>
-        var map, infoWindow;
+        var map;
         function initMap() {
-            fetch('https://maskmap.azurewebsites.net/api/mask/getmaskstock')
+            fetch('https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json')
                 .then((response) => response.json())
                 .then((data) => {
                     getCurrentPosition(data);
@@ -62,18 +62,18 @@
 
         }
         function setMarkers(item) {
-            if ((item.properties.masksLeft && item.properties.childMasksLeft) != 0) {
+            if ((item.properties.mask_adult && item.properties.mask_child) != 0) {
                 var marker = setDetailMarker(item);
                 marker.icon = 'medical-mask.png';
                 setInfoCard(item, marker);
                 // marker.setAnimation(google.maps.Animation.BOUNCE);
             }
-            else if (item.properties.masksLeft != 0 && item.properties.childMasksLeft == 0) {
+            else if (item.properties.mask_adult != 0 && item.properties.mask_child == 0) {
                 var marker = setDetailMarker(item);
                 marker.icon = 'medical-mask.png';
                 setInfoCard(item, marker);
             }
-            else if (item.properties.masksLeft == 0 && item.properties.childMasksLeft != 0) {
+            else if (item.properties.mask_adult == 0 && item.properties.mask_child != 0) {
                 var marker = setDetailMarker(item);
                 marker.icon = 'boy.png';
                 setInfoCard(item, marker);
@@ -100,8 +100,14 @@
             var contentString = '<div id="content">' +
                 `<h1 id="firstHeading" class="firstHeading">${item.properties.name}</h1>` +
                 '<div id="bodyContent">' +
-                `<ul id="container"><li>口罩數量 : ${item.properties.masksLeft}</li>` +
-                `<li>小孩口罩數量 : ${item.properties.childMasksLeft}</li></ul>` +
+                `<ul id="container">`+
+                `<li>電話 : ${item.properties.phone}</li>` +
+                `<li>地址 : ${item.properties.address}</li>` +
+                `<li>口罩數量 : ${item.properties.mask_adult}</li>` +
+                `<li>小孩口罩數量 : ${item.properties.mask_child}</li></ul>` +
+                `<li>注意事項 : ${item.properties.note}</li>`+
+                `<li>更新時間 : ${item.properties.updated}</li>`+
+                `</ul>` +
                 '</div>' +
                 '</div>';
 
