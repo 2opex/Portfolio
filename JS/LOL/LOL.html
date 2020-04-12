@@ -135,17 +135,26 @@
     <script>
         var container = $g('.container');
         var row = $g('.row');
+
         fetch('https://raw.githubusercontent.com/2opex/Portfolio/master/JS/LOL/LOL.json')
             .then((response) => response.json())
             .then((data) => {
-                data.champions.forEach((item, index) => {
-                    addCard(item);
-                })
+                fetch('https://raw.githubusercontent.com/2opex/Portfolio/master/JS/LOL/Chanpion.json')
+                    .then((ChanpionResponse) => ChanpionResponse.json())
+                    .then((Chanpion) => {
+                        data.champions.forEach((item, index) => {
+                            addCard(item, Chanpion.data[item.name].stats);
+                        })
+                    })
+                    .catch((ChanpionError) => {
+
+                    })
             })
             .catch((error) => {
 
             })
-        function addCard(hero) {
+
+        function addCard(hero, ChanpionStats) {
             let templateCard = $g('#templateCard');
             let cloneContent = templateCard.content.cloneNode(true);
             let pic = cloneContent.querySelector('.pic');
@@ -169,14 +178,16 @@
             card.setAttribute('data-target', `#${hero.id}`);
             exampleModalCenter.setAttribute('id', `${hero.id}`);
 
-            modalBody.innerHTML = `Roles : ${hero.roles}` + `<br>hp : ${hero.stats.hp}`;
-            for (let item in hero.stats) {
-                modalBody.innerHTML += `<br>${item} : ${hero.stats[item]}`;
-            }
+
+            modalBody.innerHTML = `Roles : ${hero.roles}`;
+
+            Object.keys(ChanpionStats).forEach((item, index) => {
+                modalBody.innerHTML += `<br> ${item} : ${ChanpionStats[item]}`;
+            })
+
             row.appendChild(cloneContent);
 
         }
-
     </script>
 
     <!-- Optional JavaScript -->

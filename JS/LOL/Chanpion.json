@@ -450,7 +450,7 @@
                 "attackspeed": 0.658
             }
         },
-        "AurelionSol": {
+        "Aurelion Sol": {
             "version": "10.7.1",
             "id": "AurelionSol",
             "key": "136",
@@ -2142,7 +2142,7 @@
                 "attackspeed": 0.625
             }
         },
-        "JarvanIV": {
+        "Jarvan IV": {
             "version": "10.7.1",
             "id": "JarvanIV",
             "key": "59",
@@ -2838,9 +2838,9 @@
                 "attackspeed": 0.625
             }
         },
-        "Khazix": {
+        "Kha'Zix": {
             "version": "10.7.1",
-            "id": "Khazix",
+            "id": "Kha'Zix",
             "key": "121",
             "name": "Kha'Zix",
             "title": "the Voidreaver",
@@ -2986,9 +2986,9 @@
                 "attackspeed": 0.625
             }
         },
-        "KogMaw": {
+        "Kog'Maw": {
             "version": "10.7.1",
-            "id": "KogMaw",
+            "id": "Kog'Maw",
             "key": "96",
             "name": "Kog'Maw",
             "title": "the Mouth of the Abyss",
@@ -3086,7 +3086,7 @@
                 "attackspeed": 0.625
             }
         },
-        "LeeSin": {
+        "Lee Sin": {
             "version": "10.7.1",
             "id": "LeeSin",
             "key": "64",
@@ -3534,7 +3534,7 @@
                 "attackspeed": 0.8
             }
         },
-        "MasterYi": {
+        "Master Yi": {
             "version": "10.7.1",
             "id": "MasterYi",
             "key": "11",
@@ -4082,9 +4082,9 @@
                 "attackspeed": 0.721
             }
         },
-        "Nunu": {
+        "Nunu & Willump": {
             "version": "10.7.1",
-            "id": "Nunu",
+            "id": "Nunu & Willump",
             "key": "20",
             "name": "Nunu & Willump",
             "title": "the Boy and His Yeti",
