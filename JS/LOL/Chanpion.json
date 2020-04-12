@@ -896,9 +896,9 @@
                 "attackspeed": 0.647
             }
         },
-        "Chogath": {
+        "Cho'Gath": {
             "version": "10.7.1",
-            "id": "Chogath",
+            "id": "Cho'Gath",
             "key": "31",
             "name": "Cho'Gath",
             "title": "the Terror of the Void",
