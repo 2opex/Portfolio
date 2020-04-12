@@ -135,7 +135,7 @@
     <script>
         var container = $g('.container');
         var row = $g('.row');
-        fetch('http://127.0.0.1:5501/JS/LOL/LOL.json')
+        fetch('https://raw.githubusercontent.com/2opex/Portfolio/master/JS/LOL/LOL.json')
             .then((response) => response.json())
             .then((data) => {
                 data.champions.forEach((item, index) => {
