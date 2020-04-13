@@ -158,16 +158,16 @@
 
 
         function addCard(hero, ChanpionStats) {
-            var templateCard = $g('#templateCard');
-            var cloneContent = templateCard.content.cloneNode(true);
-            var pic = cloneContent.querySelector('.pic');
-            var img = cloneContent.querySelector('img');
-            var p = cloneContent.querySelector('p');
-            var a = cloneContent.querySelector('.txt>a');
-            var card = cloneContent.getElementById('card');
-            var exampleModalCenter = cloneContent.getElementById('exampleModalCenter');
-            var modalTitle = cloneContent.querySelector('.modal-title');
-            var modalBody = cloneContent.querySelector('.modal-body');
+            let templateCard = $g('#templateCard');
+            let cloneContent = templateCard.content.cloneNode(true);
+            let pic = cloneContent.querySelector('.pic');
+            let img = cloneContent.querySelector('img');
+            let p = cloneContent.querySelector('p');
+            let a = cloneContent.querySelector('.txt>a');
+            let card = cloneContent.getElementById('card');
+            let exampleModalCenter = cloneContent.getElementById('exampleModalCenter');
+            let modalTitle = cloneContent.querySelector('.modal-title');
+            let modalBody = cloneContent.querySelector('.modal-body');
             if (hero.name == 'Sett' || hero.name == 'Aphelios') {
                 img.setAttribute('src', `${hero.splashImageUrl}`);
                 img.classList.remove('w-100');
