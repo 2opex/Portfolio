@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
+
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -16,6 +22,10 @@
 
         #map {
             height: 100%;
+            width: 85%;
+            position: absolute;
+            left: 15%;
+            top: 0;
         }
 
         /* Optional: Makes the sample page fill the window. */
@@ -24,20 +34,70 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            position: relative;
+        }
+
+        ul.nav {
+            width: 15%;
+            overflow: auto;
+            height: 100%;
+        }
+
+        li {
+            width: 100%;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #fdd;
+            font-weight: bold;
+        }
+
+        .area_it .nav-link.active {
+            background-color: #ddf;
+            font-weight: bold;
+        }
+
+        .area_it .nav-link.active:hover {
+            background-color: #66f;
         }
     </style>
 </head>
 
 <body>
-    <div id="map"></div>
+
+    <ul class="nav  nav-tabs ">
+
+    </ul>
+    <template id="City_it">
+        <li class="nav-item city_it">
+            <a class="nav-link active city" href="#">Active</a>
+            <ul class="area_ul"></ul>
+        </li>
+    </template>
+    <template id="Area_it">
+        <li class="nav-item area_it">
+            <a class="nav-link active area" href="#">Active</a>
+        </li>
+    </template>
+    <div id="map">
+    </div>
+
     <script src="/JS/GoogleMap/markerclusterer.js"></script>
     <script>
         var map;
+        var ul = document.querySelector('ul');
+        var City_it = document.querySelector('#City_it');
+        var Area_it = document.querySelector('#Area_it');
+        var maskData = '';
+        window.onload = function () {
+            getCityAreaData();
+        }
         function initMap() {
             fetch('https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json')
                 .then((response) => response.json())
                 .then((data) => {
                     getCurrentPosition(data);
+                    maskData = data;
                 })
                 .catch((error) => {
                     // Handle the error
@@ -46,19 +106,22 @@
         }
         var getCurrentPosition = function (data) {
             navigator.geolocation.getCurrentPosition((position) => {
-                map = new google.maps.Map(document.getElementById('map'), {
+                map = new google.maps.Map(document.querySelector('#map'), {
                     center: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
                     zoom: 16
                 })
+
                 infoWindow = new google.maps.InfoWindow;
                 var markersArray = [];
                 data.features.forEach((item, index) => {
                     markersArray.push(setMarkers(item));
                 });
-                console.log(markersArray);
+                // console.log(markersArray);
                 var markerCluster = new MarkerClusterer(map, markersArray,
                     { imagePath: 'images/m' });
             })
+
+
 
         }
         function setMarkers(item) {
@@ -100,13 +163,13 @@
             var contentString = '<div id="content">' +
                 `<h1 id="firstHeading" class="firstHeading">${item.properties.name}</h1>` +
                 '<div id="bodyContent">' +
-                `<ul id="container">`+
+                `<ul id="container">` +
                 `<li>電話 : ${item.properties.phone}</li>` +
                 `<li>地址 : ${item.properties.address}</li>` +
                 `<li>口罩數量 : ${item.properties.mask_adult}</li>` +
                 `<li>小孩口罩數量 : ${item.properties.mask_child}</li></ul>` +
-                `<li>注意事項 : ${item.properties.note}</li>`+
-                `<li>更新時間 : ${item.properties.updated}</li>`+
+                `<li>注意事項 : ${item.properties.note}</li>` +
+                `<li>更新時間 : ${item.properties.updated}</li>` +
                 `</ul>` +
                 '</div>' +
                 '</div>';
@@ -118,9 +181,84 @@
                 infowindow.open(map, marker);
             });
         }
+
+
+        function getCityAreaData() {
+            fetch('https://raw.githubusercontent.com/2opex/Portfolio/master/JS/TaiwanAddress/TaiwanAddress_simple.json')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach((item, index) => {
+                        setCity(item);
+                    })
+                    let city = document.querySelectorAll('.city');
+                    let city_it = document.querySelectorAll('.city_it');
+                    let area_ul = document.querySelectorAll('.area_ul');
+                    city.forEach((item, index) => {
+                        let isClick = true;
+                        item.addEventListener('click', () => {
+                            if (isClick) {
+                                setArea(data[index], city_it[index]);
+                                isClick = false;
+
+                            }
+                            else {
+                                let area_ul_children_length = area_ul[index].children.length;
+                                for (let i = 0; i < area_ul_children_length; i++) {
+                                    area_ul[index].removeChild(area_ul[index].children[0]);
+                                }
+                                isClick = true;
+                            }
+                        })
+                    })
+                })
+                .catch(ex => {
+
+                })
+        }
+
+        function setCity(cityObj) {
+            let cloneContent = City_it.content.cloneNode(true);
+            let city = cloneContent.querySelector('.city');
+            city.innerHTML = cityObj.City;
+            ul.appendChild(cloneContent);
+        }
+
+        function setArea(areaObj, city_it) {
+            let area_ul = city_it.querySelector('.area_ul');
+            areaObj.Districts.forEach((item, index) => {
+                let cloneContent = Area_it.content.cloneNode(true);
+                let area = cloneContent.querySelector('.area');
+                let area_it = cloneContent.querySelector('.area_it');
+                area.innerHTML = item.District;
+                area_ul.appendChild(cloneContent);
+                area_it.addEventListener('click', setAreaLat)
+            })
+        }
+        function setAreaLat() {
+            for (let i = 0; i < maskData.features.length; i++) {
+                if (this.children[0].text == maskData.features[i].properties.town && this.parentNode.parentNode.children[0].text == maskData.features[i].properties.county) {
+                    map.setCenter({
+                        lat: maskData.features[i].geometry.coordinates[1],
+                        lng: maskData.features[i].geometry.coordinates[0]
+                    });
+                    break;
+                }
+            }
+        }
+
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ-dWejpVJyHInXW-CjBip3MfseI6Xo_w&callback=initMap"
         async defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
