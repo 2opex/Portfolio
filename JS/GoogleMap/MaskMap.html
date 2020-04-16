@@ -32,9 +32,6 @@
         html,
         body {
             height: 100%;
-            margin: 0;
-            padding: 0;
-            position: relative;
         }
 
         ul.nav {
@@ -68,6 +65,10 @@
     <ul class="nav  nav-tabs ">
 
     </ul>
+
+    <div id="map">
+    </div>
+
     <template id="City_it">
         <li class="nav-item city_it">
             <a class="nav-link active city" href="#">Active</a>
@@ -79,9 +80,6 @@
             <a class="nav-link active area" href="#">Active</a>
         </li>
     </template>
-    <div id="map">
-    </div>
-
     <script src="/JS/GoogleMap/markerclusterer.js"></script>
     <script>
         var map;
@@ -111,7 +109,6 @@
                     zoom: 16
                 })
 
-                infoWindow = new google.maps.InfoWindow;
                 var markersArray = [];
                 data.features.forEach((item, index) => {
                     markersArray.push(setMarkers(item));
