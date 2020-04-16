@@ -236,9 +236,10 @@
         }
         function setAreaCenter() {
             for (let i = 0; i < maskData.features.length; i++) {
-                if (this.children[0].text == maskData.features[i].properties.town && 
-                this.parentNode.parentNode.children[0].text == maskData.features[i].properties.county) {
+                if (this.children[0].text == maskData.features[i].properties.town &&
+                    this.parentNode.parentNode.children[0].text == maskData.features[i].properties.county) {
                     map.setCenter(new google.maps.LatLng(maskData.features[i].geometry.coordinates[1], maskData.features[i].geometry.coordinates[0]));
+                    map.setZoom(16);
                     break;
                 }
             }
