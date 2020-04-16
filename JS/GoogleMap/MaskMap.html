@@ -231,10 +231,10 @@
                 let area_it = cloneContent.querySelector('.area_it');
                 area.innerHTML = item.District;
                 area_ul.appendChild(cloneContent);
-                area_it.addEventListener('click', setAreaLat)
+                area_it.addEventListener('click', setAreaCenter)
             })
         }
-        function setAreaLat() {
+        function setAreaCenter() {
             for (let i = 0; i < maskData.features.length; i++) {
                 if (this.children[0].text == maskData.features[i].properties.town && 
                 this.parentNode.parentNode.children[0].text == maskData.features[i].properties.county) {
