@@ -12,9 +12,9 @@
 <body>
     <h1>寶可夢圖鑑列表</h1>
 
-    <button onclick="allPokemon()">AllPokemon</button>
-    <button onclick="appendPokemon()">Append</button>
-    <button onclick="ClearPokemon()">Clear</button>
+    <button id="allPokemon">AllPokemon</button>
+    <button id="appendPokemon">Append</button>
+    <button id="ClearPokemon">Clear</button>
 
     <div id="container">
 
@@ -25,18 +25,18 @@
 
         var index = 1;
 
-        function appendPokemon() {
+        $('#appendPokemon').click(()=>{
             var img = $('<img>');
-            let no = index.toString().padStart(3, '0');
-            img.attr('src', `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${no}.png`)
+            let fileName = index.toString().padStart(3, '0');
+            let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
+            img.attr('src',pathFile)
             $('#container').append(img);
             index++;
-        }
+        })
 
 
-        function allPokemon() {
-
-            for (let indexAll = 1; indexAll <= 890; indexAll++) {
+       $('#allPokemon').click(()=>{
+           for (let indexAll = 1; indexAll <= 890; indexAll++) {
                 var img = $('<img>');
                 let fileName = indexAll.toString().padStart(3, '0');
                 let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
@@ -45,7 +45,9 @@
                 $('#container').append(img);
                 index++;
             }
-        }
+       })
+            
+        
         function clickRemove(event) {
             // console.log(typeof event);
             event.target.remove();
@@ -53,9 +55,9 @@
         }
 
 
-        function ClearPokemon() {
+        $('#ClearPokemon').click(()=>{
             $('#container').html('');
-        }
+        })
 
 
     </script>
