@@ -30,6 +30,7 @@
             let fileName = index.toString().padStart(3, '0');
             let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
             img.attr('src', pathFile)
+            img.click((event) => { clickRemove(event) });
             $('#container').append(img);
             index++;
         })
