@@ -25,18 +25,18 @@
 
         var index = 1;
 
-        $('#appendPokemon').click(()=>{
+        $('#appendPokemon').click(() => {
             var img = $('<img>');
             let fileName = index.toString().padStart(3, '0');
             let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
-            img.attr('src',pathFile)
+            img.attr('src', pathFile)
             $('#container').append(img);
             index++;
         })
 
 
-       $('#allPokemon').click(()=>{
-           for (let indexAll = 1; indexAll <= 890; indexAll++) {
+        $('#allPokemon').click(() => {
+            for (let indexAll = 1; indexAll <= 890; indexAll++) {
                 var img = $('<img>');
                 let fileName = indexAll.toString().padStart(3, '0');
                 let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
@@ -45,18 +45,19 @@
                 $('#container').append(img);
                 index++;
             }
-       })
-            
-        
+        })
+
+
         function clickRemove(event) {
             // console.log(typeof event);
             event.target.remove();
-            index--;
+
         }
 
 
-        $('#ClearPokemon').click(()=>{
+        $('#ClearPokemon').click(() => {
             $('#container').html('');
+            index = 1;
         })
 
 
