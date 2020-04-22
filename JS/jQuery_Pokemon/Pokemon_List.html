@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"
+        integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>寶可夢圖鑑列表</h1>
+
+    <button onclick="allPokemon()">AllPokemon</button>
+    <button onclick="appendPokemon()">Append</button>
+    <button onclick="ClearPokemon()">Clear</button>
+
+    <div id="container">
+
+    </div>
+
+    <script>
+
+
+        var index = 1;
+
+        function appendPokemon() {
+            var img = $('<img>');
+            let no = index.toString().padStart(3, '0');
+            img.attr('src', `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${no}.png`)
+            $('#container').append(img);
+            index++;
+        }
+
+
+        function allPokemon() {
+
+            for (let indexAll = 1; indexAll <= 890; indexAll++) {
+                var img = $('<img>');
+                let fileName = indexAll.toString().padStart(3, '0');
+                let pathFile = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
+                img.attr('src', pathFile);
+                img.click((event) => { clickRemove(event) });
+                $('#container').append(img);
+                index++;
+            }
+        }
+        function clickRemove(event) {
+            // console.log(typeof event);
+            event.target.remove();
+            index--;
+        }
+
+
+        function ClearPokemon() {
+            $('#container').html('');
+        }
+
+
+    </script>
+</body>
+
+</html>
