@@ -145,7 +145,7 @@
                 let first_x = box.childNodes[0].x;
                 let last_x = box.childNodes[n].x;
 
-                for (let index = 0; index < 300; index++) {
+                for (let index = 0; index < 1000; index++) {
                     let arr = [];
                     box.childNodes.forEach((item, index) => {
                         arr.push(item);
@@ -249,7 +249,7 @@
                 let blank = document.getElementById(n);
                 let temp = box.insertBefore(document.createElement('p'), target);
                 box.insertBefore(target, blank);
-                box.insertBefore(blank, box.children[n + 1]);
+                // box.insertBefore(blank, box.children[n + 1]);
                 box.insertBefore(blank, temp);
                 box.removeChild(temp);
             }
