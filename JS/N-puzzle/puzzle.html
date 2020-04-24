@@ -85,6 +85,7 @@
             select.removeEventListener('change', initialize);
             var input = document.querySelector('input');
             let inputValue = input.value;
+            imgMain.crossOrigin = 'anonymous';
             imgMain.setAttribute('src', `${inputValue}`);
             Reset();
             select.addEventListener('change', set_self_image);
@@ -93,6 +94,7 @@
         function set_self_image() {
             var input = document.querySelector('input');
             let inputValue = input.value;
+            imgMain.crossOrigin = 'anonymous';
             imgMain.setAttribute('src', `${inputValue}`);
             Reset();
         }
