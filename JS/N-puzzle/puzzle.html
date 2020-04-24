@@ -36,6 +36,10 @@
         button {
             width: 100px;
         }
+
+        img {
+            animation-delay: 2s;
+        }
     </style>
 </head>
 
@@ -52,19 +56,51 @@
             <option value="24">5x5</option>
             <option value="35">6x6</option>
         </select>
+        <input type="text">
+        <button id="self_style">
+            <p>自定義圖片</p>
+        </button>
     </div>
     <script>
         var box = document.querySelector('.box');
         var imgMain = document.createElement("img");
         var select = document.querySelector('select');
         var btn = document.querySelector('button');
-        Reset();
-        select.addEventListener('change', Reset);
+        var btn_self_style = document.getElementById('self_style');
+
+        window.onload = function () {
+            initialize();
+            select.addEventListener('change', initialize);
+            btn_self_style.addEventListener('click', setImage)
+        }
+
+        function initialize() {
+            imgMain.crossOrigin = 'anonymous';
+            imgMain.setAttribute('src', 'wukung.jpg');
+            Reset();
+        }
+
+
+        function setImage() {
+            select.removeEventListener('change', initialize);
+            var input = document.querySelector('input');
+            let inputValue = input.value;
+            imgMain.setAttribute('src', `${inputValue}`);
+            Reset();
+            select.addEventListener('change', set_self_image);
+        }
+
+        function set_self_image() {
+            var input = document.querySelector('input');
+            let inputValue = input.value;
+            imgMain.setAttribute('src', `${inputValue}`);
+            Reset();
+        }
 
         function Reset() {
             var n = Number.parseInt(select.selectedOptions[0].value);
             var count = Math.sqrt(n + 1);
-            imgMain.setAttribute('src', 'wukung.jpg');
+
             imgMain.addEventListener('load', getPuzzle, false);
             function getPuzzle() {
                 box.innerHTML = '';
@@ -91,7 +127,7 @@
             var _id = 0;
             function setImage(canvas) {
                 let image = document.createElement('img');
-                image.src = canvas.toDataURL();
+                image.src = canvas.toDataURL('image/webp', 1.0);
                 image.id = _id;
                 _id++;
                 box.appendChild(image);
