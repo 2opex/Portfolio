@@ -233,12 +233,8 @@
                 let first_x = arr[0].x;
                 let last_x = arr[n].x;
                 if (arr[index + 1] == blank || arr[index - 1] == blank || arr[index + count] == blank || arr[index - count] == blank) {
-                    if (this.x == first_x && blank.x == last_x) {
-
-                    }
-                    else if (this.x == last_x && blank.x == first_x) {
-
-                    }
+                    if (this.x == first_x && blank.x == last_x) {}
+                    else if (this.x == last_x && blank.x == first_x) {}
                     else {
                         imgSliding(event.target);
                     }
