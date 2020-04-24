@@ -56,7 +56,7 @@
             <option value="24">5x5</option>
             <option value="35">6x6</option>
         </select>
-        <input type="text">
+        <input type="text" value="請輸入圖片">
         <button id="self_style">
             <p>自定義圖片</p>
         </button>
@@ -71,7 +71,7 @@
         window.onload = function () {
             initialize();
             select.addEventListener('change', initialize);
-            btn_self_style.addEventListener('click', setImage)
+            btn_self_style.addEventListener('click', changeImage)
         }
 
         function initialize() {
@@ -81,7 +81,7 @@
         }
 
 
-        function setImage() {
+        function changeImage() {
             select.removeEventListener('change', initialize);
             var input = document.querySelector('input');
             let inputValue = input.value;
