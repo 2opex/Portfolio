@@ -84,7 +84,37 @@
         </div>
     </div>
 
- 
+  <!-- The InfoModal -->
+  <div class="modal" id="InfoModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Schedule</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="things-name" class="col-form-label">things:</label>
+                        <input type="text" class="form-control" id="info-things-name"
+                            placeholder="write down your schedule">
+                    </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="Modify">Modify</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="Delete">Delete</button>
+            </div>
+
+        </div>
+    </div>
+</div>
     <script src="Calendar.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

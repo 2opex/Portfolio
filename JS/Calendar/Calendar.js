@@ -91,10 +91,10 @@ function add_1() {
 }
 function setModal() {
     id = event.target.id;
-    event.target.setAttribute('data-toggle', 'modal');
-    event.target.setAttribute('data-target', '#myModal');
+    $('#myModal').modal('show');
     let btn_save = document.querySelector('#save');
     btn_save.addEventListener('click', clickSave, false);
+    // event.stopPropagation();
 }
 function clickSave() {
     let things = document.querySelector('#things-name').value;
@@ -118,20 +118,37 @@ function getStorage() {
             div.innerHTML = temp.things;
 
             let target = document.getElementById(`${temp.id}`);
-            div.addEventListener('click', Remove, false);
+            div.addEventListener('click', setInfoModal, false);
             if (target != null)
                 target.appendChild(div);
         }
     }
 }
+let modify_id;
 let modify_key;
-function Remove() {
+function setInfoModal() {
+    document.querySelector('#info-things-name').value = event.target.textContent;
+    $('#InfoModal').modal('show');
     modify_id = localStorage.getItem(event.target.id);
     modify_key = event.target.id;
-    JSON.parse(modify_id);
+    event.stopPropagation();
+}
+
+document.getElementById('Delete').addEventListener('click', Remove, false);
+document.getElementById('Modify').addEventListener('click', Modify, false);
+
+function Remove() {
     localStorage.removeItem(modify_key);
     getCalendar();
-    event.stopPropagation();
+    // event.stopPropagation();
+}
+function Modify() {
+    let temp = JSON.parse(modify_id);
+    temp.things = document.querySelector('#info-things-name').value;
+    localStorage.setItem(`${modify_key}`, JSON.stringify(temp));
+    // localStorage.removeItem(modify_key);
+    getCalendar();
+    // event.stopPropagation();
 }
 function _uuid() {
     var d = Date.now();
