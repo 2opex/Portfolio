@@ -23,7 +23,11 @@ tbody tr td {
 }
 
 td div {
-    font-size: 5px;
-    color: #f00;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f44;
     font-weight: bold;
+    background-color: #bbb;
+    border: 1px solid black;
+    border-radius: 10px;
 }
