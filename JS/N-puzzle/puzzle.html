@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sliding Puzzle</title>
+
     <style>
         * {
             margin: 0;
@@ -16,7 +17,7 @@
             background-color: #ddffdd;
         }
 
-        .box {
+        .puzzleBox {
             width: 550px;
             display: flex;
             justify-content: center;
@@ -27,10 +28,10 @@
         }
 
         .btn {
+            width: 550px;
             display: flex;
             margin: auto;
-            height: 30px;
-            justify-content: center;
+            justify-content: space-between;
         }
 
         button {
@@ -40,29 +41,51 @@
         img {
             animation-delay: 2s;
         }
+
+        #start {
+            margin: 10px 0;
+
+            padding: 10px;
+        }
+
+        #select {
+            margin: 10px 0;
+
+            padding: 10px;
+
+        }
+
+        input {
+            margin: 10px 0;
+        }
+
+        #self_style {
+            margin: 10px 0;
+
+        }
     </style>
 </head>
 
 <body>
     <canvas id="myCanvas" hidden></canvas>
-    <div class="box"></div>
+    <div class="puzzleBox"></div>
     <div class="btn">
-        <button>
+        <button id="start">
             <p>開始遊戲</p>
         </button>
-        <select name="" id="">
+        <select name="" id="select">
             <option value="8">3x3</option>
             <option value="15">4x4</option>
             <option value="24">5x5</option>
             <option value="35">6x6</option>
         </select>
-        <input type="text" value="請輸入圖片">
+        <input type="url" value="請輸入圖片網址">
         <button id="self_style">
             <p>自定義圖片</p>
         </button>
     </div>
     <script>
-        var box = document.querySelector('.box');
+        var puzzleBox = document.querySelector('.puzzleBox');
         var imgMain = document.createElement("img");
         var select = document.querySelector('select');
         var btn = document.querySelector('button');
@@ -105,14 +128,14 @@
 
             imgMain.addEventListener('load', getPuzzle, false);
             function getPuzzle() {
-                box.innerHTML = '';
+                puzzleBox.innerHTML = '';
                 let canvas = document.querySelector('#myCanvas');
                 let context = canvas.getContext('2d');
                 let _x = imgMain.width / count;
                 let _y = imgMain.height / count;
 
-                canvas.width = getComputedStyle(box).width.substring(0, 3) / count;
-                canvas.height = getComputedStyle(box).width.substring(0, 3) / count;
+                canvas.width = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
+                canvas.height = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
 
                 for (let i = 0; i < count; i++) {
                     for (let j = 0; j < count; j++) {
@@ -132,7 +155,7 @@
                 image.src = canvas.toDataURL('image/webp', 1.0);
                 image.id = _id;
                 _id++;
-                box.appendChild(image);
+                puzzleBox.appendChild(image);
             }
 
             select.addEventListener('change', removeListener, false);
@@ -145,8 +168,8 @@
 
             function autoMove() {
                 let blank = document.getElementById(n);
-                let first_x = box.childNodes[0].x;
-                let last_x = box.childNodes[n].x;
+                let first_x = puzzleBox.childNodes[0].x;
+                let last_x = puzzleBox.childNodes[n].x;
 
                 let pos = 0;
                 var id = setInterval(frame, 2);
@@ -162,7 +185,7 @@
                 function animation() {
 
                     let arr = [];
-                    box.childNodes.forEach((item, index) => {
+                    puzzleBox.childNodes.forEach((item, index) => {
                         arr.push(item);
                     })
 
@@ -241,10 +264,10 @@
             function checkPosition() {
                 let blank = document.getElementById(n);
                 let arr = [];
-                box.childNodes.forEach((item, index) => {
+                puzzleBox.childNodes.forEach((item, index) => {
                     arr.push(item);
                 })
-                
+
                 let index = arr.indexOf(this);
                 let first_x = arr[0].x;
                 let last_x = arr[n].x;
@@ -260,15 +283,16 @@
 
             function imgSliding(target) {
                 let blank = document.getElementById(n);
-                let temp = box.insertBefore(document.createElement('p'), target);
-                box.insertBefore(target, blank);
-                // box.insertBefore(blank, box.children[n + 1]);
-                box.insertBefore(blank, temp);
-                box.removeChild(temp);
+                let temp = puzzleBox.insertBefore(document.createElement('p'), target);
+                puzzleBox.insertBefore(target, blank);
+                // puzzleBox.insertBefore(blank, puzzleBox.children[n + 1]);
+                puzzleBox.insertBefore(blank, temp);
+                puzzleBox.removeChild(temp);
             }
         }
 
     </script>
+
 
 </body>
 
