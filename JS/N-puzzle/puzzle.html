@@ -90,7 +90,9 @@
         var select = document.querySelector('select');
         var btn = document.querySelector('button');
         var btn_self_style = document.getElementById('self_style');
-
+        var _id = 0;
+        var n = 0;
+        var count = 0;
         window.onload = function () {
             initialize();
             select.addEventListener('change', initialize);
@@ -123,172 +125,176 @@
         }
 
         function Reset() {
-            var n = Number.parseInt(select.selectedOptions[0].value);
-            var count = Math.sqrt(n + 1);
-
+            n = Number.parseInt(select.selectedOptions[0].value);
+            count = Math.sqrt(n + 1);
             imgMain.addEventListener('load', getPuzzle, false);
-            function getPuzzle() {
-                puzzleBox.innerHTML = '';
-                let canvas = document.querySelector('#myCanvas');
-                let context = canvas.getContext('2d');
-                let _x = imgMain.width / count;
-                let _y = imgMain.height / count;
-
-                canvas.width = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
-                canvas.height = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
-
-                for (let i = 0; i < count; i++) {
-                    for (let j = 0; j < count; j++) {
-                        context.drawImage(imgMain, _x * j, _y * i, _x, _y, 0, 0, canvas.width - 1, canvas.height - 1)
-                        if (i == count - 1 && j == count - 1)
-                            context.clearRect(0, 0, canvas.width, canvas.height);
-                        setImage(canvas);
-                        context.clearRect(0, 0, canvas.width, canvas.height);
-                    }
-                }
-                setEventListener();
-            }
-
-            var _id = 0;
-            function setImage(canvas) {
-                let image = document.createElement('img');
-                image.src = canvas.toDataURL('image/webp', 1.0);
-                image.id = _id;
-                _id++;
-                puzzleBox.appendChild(image);
-            }
-
-            select.addEventListener('change', removeListener, false);
-            function removeListener() {
-                btn.removeEventListener('click', autoMove, false);
-                select.removeEventListener('change', removeListener, false);
-            }
-
+            _id = 0;
             btn.addEventListener('click', autoMove, false);
+            select.addEventListener('change', removeListener, false);
+        }
 
-            function autoMove() {
-                let blank = document.getElementById(n);
-                let first_x = puzzleBox.childNodes[0].x;
-                let last_x = puzzleBox.childNodes[n].x;
 
-                let pos = 0;
-                var id = setInterval(frame, 2);
-                function frame() {
-                    if (pos == 500) {
-                        clearInterval(id);
-                    } else {
-                        animation();
-                        pos++;
-                    }
-                }
+        function getPuzzle() {
 
-                function animation() {
+            puzzleBox.innerHTML = '';
+            let canvas = document.querySelector('#myCanvas');
+            let context = canvas.getContext('2d');
+            let _x = imgMain.width / count;
+            let _y = imgMain.height / count;
 
-                    let arr = [];
-                    puzzleBox.childNodes.forEach((item, index) => {
-                        arr.push(item);
-                    })
+            canvas.width = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
+            canvas.height = getComputedStyle(puzzleBox).width.substring(0, 3) / count;
 
-                    let dice = Math.floor(Math.random() * 100);
-                    if (dice < 25) {
-                        up(arr, blank);
-                    }
-                    else if (dice >= 25 && dice < 50) {
-                        down(arr, blank);
-                    }
-                    else if (dice >= 50 && dice < 75) {
-                        right(arr, blank, first_x, last_x);
-                    }
-                    else {
-                        left(arr, blank, first_x, last_x);
-                    }
-                }
-
-            }
-
-            function up(arr, blank) {
-                let upItem = arr[arr.indexOf(blank) - count];
-                let downItem = arr[arr.indexOf(blank) + count];
-                if (upItem != undefined) {
-                    imgSliding(upItem);
-                }
-                else {
-                    imgSliding(downItem);
+            for (let i = 0; i < count; i++) {
+                for (let j = 0; j < count; j++) {
+                    context.drawImage(imgMain, _x * j, _y * i, _x, _y, 0, 0, canvas.width - 1, canvas.height - 1)
+                    if (i == count - 1 && j == count - 1)
+                        context.clearRect(0, 0, canvas.width, canvas.height);
+                    setImage(canvas);
+                    context.clearRect(0, 0, canvas.width, canvas.height);
                 }
             }
+            setEventListener();
+        }
 
-            function down(arr, blank) {
-                let downItem = arr[arr.indexOf(blank) + count];
-                let upItem = arr[arr.indexOf(blank) - count];
-                if (downItem != undefined) {
-                    imgSliding(downItem);
-                }
-                else {
-                    imgSliding(upItem);
+        function setImage(canvas) {
+            let image = document.createElement('img');
+            image.src = canvas.toDataURL('image/webp', 1.0);
+            image.id = _id;
+            _id++;
+            puzzleBox.appendChild(image);
+        }
+
+
+        function removeListener() {
+            btn.removeEventListener('click', autoMove, false);
+            select.removeEventListener('change', removeListener, false);
+        }
+
+
+
+        function autoMove() {
+            let blank = document.getElementById(n);
+            let first_x = puzzleBox.childNodes[0].x;
+            let last_x = puzzleBox.childNodes[n].x;
+
+            let pos = 0;
+            var id = setInterval(frame, 2);
+            function frame() {
+                if (pos == 500) {
+                    clearInterval(id);
+                } else {
+                    animation();
+                    pos++;
                 }
             }
 
-            function right(arr, blank, first_x, last_x) {
-                let rightItem = arr[arr.indexOf(blank) + 1];
-                let leftItem = arr[arr.indexOf(blank) - 1];
-                if (rightItem != undefined) {
-                    if (rightItem.x == first_x && blank.x == last_x) {
-                        imgSliding(leftItem);
-                    }
-                    else {
-                        imgSliding(rightItem);
-                    }
-                }
-            }
+            function animation() {
 
-            function left(arr, blank, first_x, last_x) {
-                let leftItem = arr[arr.indexOf(blank) - 1];
-                let rightItem = arr[arr.indexOf(blank) + 1];
-                if (leftItem != undefined) {
-                    if (leftItem.x == last_x && blank.x == first_x) {
-                        imgSliding(rightItem);
-                    }
-                    else {
-                        imgSliding(leftItem);
-                    }
-                }
-            }
-
-            function setEventListener() {
-                let img = document.querySelectorAll('img');
-                img.forEach((item, index) => {
-                    item.addEventListener('click', checkPosition);
-                })
-            }
-
-            function checkPosition() {
-                let blank = document.getElementById(n);
                 let arr = [];
                 puzzleBox.childNodes.forEach((item, index) => {
                     arr.push(item);
                 })
 
-                let index = arr.indexOf(this);
-                let first_x = arr[0].x;
-                let last_x = arr[n].x;
-
-                if (arr[index + 1] == blank || arr[index - 1] == blank || arr[index + count] == blank || arr[index - count] == blank) {
-                    if (this.x == first_x && blank.x == last_x) { }
-                    else if (this.x == last_x && blank.x == first_x) { }
-                    else {
-                        imgSliding(event.target);
-                    }
+                let dice = Math.floor(Math.random() * 100);
+                if (dice < 25) {
+                    up(arr, blank);
+                }
+                else if (dice >= 25 && dice < 50) {
+                    down(arr, blank);
+                }
+                else if (dice >= 50 && dice < 75) {
+                    right(arr, blank, first_x, last_x);
+                }
+                else {
+                    left(arr, blank, first_x, last_x);
                 }
             }
 
-            function imgSliding(target) {
-                let blank = document.getElementById(n);
-                let temp = puzzleBox.insertBefore(document.createElement('p'), target);
-                puzzleBox.insertBefore(target, blank);
-                // puzzleBox.insertBefore(blank, puzzleBox.children[n + 1]);
-                puzzleBox.insertBefore(blank, temp);
-                puzzleBox.removeChild(temp);
+        }
+
+        function up(arr, blank) {
+            let upItem = arr[arr.indexOf(blank) - count];
+            let downItem = arr[arr.indexOf(blank) + count];
+            if (upItem != undefined) {
+                imgSliding(upItem);
             }
+            else {
+                imgSliding(downItem);
+            }
+        }
+
+        function down(arr, blank) {
+            let downItem = arr[arr.indexOf(blank) + count];
+            let upItem = arr[arr.indexOf(blank) - count];
+            if (downItem != undefined) {
+                imgSliding(downItem);
+            }
+            else {
+                imgSliding(upItem);
+            }
+        }
+
+        function right(arr, blank, first_x, last_x) {
+            let rightItem = arr[arr.indexOf(blank) + 1];
+            let leftItem = arr[arr.indexOf(blank) - 1];
+            if (rightItem != undefined) {
+                if (rightItem.x == first_x && blank.x == last_x) {
+                    imgSliding(leftItem);
+                }
+                else {
+                    imgSliding(rightItem);
+                }
+            }
+        }
+
+        function left(arr, blank, first_x, last_x) {
+            let leftItem = arr[arr.indexOf(blank) - 1];
+            let rightItem = arr[arr.indexOf(blank) + 1];
+            if (leftItem != undefined) {
+                if (leftItem.x == last_x && blank.x == first_x) {
+                    imgSliding(rightItem);
+                }
+                else {
+                    imgSliding(leftItem);
+                }
+            }
+        }
+
+        function setEventListener() {
+            let img = document.querySelectorAll('img');
+            img.forEach((item, index) => {
+                item.addEventListener('click', checkPosition);
+            })
+        }
+
+        function checkPosition() {
+            let blank = document.getElementById(n);
+            let arr = [];
+            puzzleBox.childNodes.forEach((item, index) => {
+                arr.push(item);
+            })
+
+            let index = arr.indexOf(this);
+            let first_x = arr[0].x;
+            let last_x = arr[n].x;
+
+            if (arr[index + 1] == blank || arr[index - 1] == blank || arr[index + count] == blank || arr[index - count] == blank) {
+                if (this.x == first_x && blank.x == last_x) { }
+                else if (this.x == last_x && blank.x == first_x) { }
+                else {
+                    imgSliding(event.target);
+                }
+            }
+        }
+
+        function imgSliding(target) {
+            let blank = document.getElementById(n);
+            let temp = puzzleBox.insertBefore(document.createElement('p'), target);
+            puzzleBox.insertBefore(target, blank);
+            // puzzleBox.insertBefore(blank, puzzleBox.children[n + 1]);
+            puzzleBox.insertBefore(blank, temp);
+            puzzleBox.removeChild(temp);
         }
 
     </script>
